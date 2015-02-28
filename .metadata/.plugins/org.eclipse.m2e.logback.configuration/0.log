@@ -1,0 +1,141 @@
+2015-02-17 14:44:39,414 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/pogamut/pogamut-pom/3.6.2-SNAPSHOT/maven-metadata.xml
+2015-02-17 14:44:39,810 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/pogamut/pogamut-pom/3.6.2-SNAPSHOT/maven-metadata.xml
+2015-02-17 14:44:39,996 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/pogamut/pogamut-pom/3.6.2-SNAPSHOT/pogamut-pom-3.6.2-20150217.082055-72.pom
+2015-02-17 14:44:40,339 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/pogamut/pogamut-pom/3.6.2-SNAPSHOT/pogamut-pom-3.6.2-20150217.082055-72.pom
+2015-02-17 14:44:42,706 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar
+2015-02-17 14:44:43,232 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar
+2015-02-17 14:44:43,773 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/org/apache/maven/plugins/maven-surefire-plugin/2.12/maven-surefire-plugin-2.12.jar
+2015-02-17 14:44:44,290 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/org/apache/maven/plugins/maven-surefire-plugin/2.12/maven-surefire-plugin-2.12.jar
+2015-02-17 14:44:44,689 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/org/dstovall/onejar-maven-plugin/1.4.4/onejar-maven-plugin-1.4.4.jar
+2015-02-17 14:44:45,692 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/org/dstovall/onejar-maven-plugin/1.4.4/onejar-maven-plugin-1.4.4.jar
+2015-02-17 14:44:46,016 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.jar
+2015-02-17 14:44:46,392 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/org/apache/maven/plugins/maven-install-plugin/2.4/maven-install-plugin-2.4.jar
+2015-02-17 14:44:46,732 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/org/apache/maven/plugins/maven-site-plugin/3.0-beta-3/maven-site-plugin-3.0-beta-3.jar
+2015-02-17 14:44:47,405 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/org/apache/maven/plugins/maven-site-plugin/3.0-beta-3/maven-site-plugin-3.0-beta-3.jar
+2015-02-17 14:44:48,782 [Worker-38] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cz.cuni.amis.pogamut.ut2004:ut2004-tournament:3.6.2-SNAPSHOT @ C:\Kesava\workspace\UT2004-tournament\pom.xml.
+2015-02-17 14:44:54,139 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/pogamut/pogamut-ut2004/3.6.2-SNAPSHOT/maven-metadata.xml
+2015-02-17 14:44:54,489 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/pogamut/pogamut-ut2004/3.6.2-SNAPSHOT/maven-metadata.xml
+2015-02-17 14:44:54,695 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/pogamut/pogamut-ut2004/3.6.2-SNAPSHOT/pogamut-ut2004-3.6.2-20150217.083502-16.pom
+2015-02-17 14:44:55,200 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/pogamut/pogamut-ut2004/3.6.2-SNAPSHOT/pogamut-ut2004-3.6.2-20150217.083502-16.pom
+2015-02-17 14:44:55,502 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/xmllist/1.0.0/xmllist-1.0.0.pom
+2015-02-17 14:44:55,852 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/xmllist/1.0.0/xmllist-1.0.0.pom
+2015-02-17 14:45:00,590 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/pogamut/pogamut-unreal/3.6.2-SNAPSHOT/maven-metadata.xml
+2015-02-17 14:45:01,003 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/pogamut/pogamut-unreal/3.6.2-SNAPSHOT/maven-metadata.xml
+2015-02-17 14:45:01,209 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/pogamut/pogamut-unreal/3.6.2-SNAPSHOT/pogamut-unreal-3.6.2-20150217.082825-12.pom
+2015-02-17 14:45:01,553 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/pogamut/pogamut-unreal/3.6.2-SNAPSHOT/pogamut-unreal-3.6.2-20150217.082825-12.pom
+2015-02-17 14:45:06,189 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/pogamut/pogamut-base/3.6.2-SNAPSHOT/maven-metadata.xml
+2015-02-17 14:45:06,549 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/pogamut/pogamut-base/3.6.2-SNAPSHOT/maven-metadata.xml
+2015-02-17 14:45:06,751 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/pogamut/pogamut-base/3.6.2-SNAPSHOT/pogamut-base-3.6.2-20150217.082744-66.pom
+2015-02-17 14:45:07,097 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/pogamut/pogamut-base/3.6.2-SNAPSHOT/pogamut-base-3.6.2-20150217.082744-66.pom
+2015-02-17 14:45:11,921 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/amis-utils/3.6.2-SNAPSHOT/maven-metadata.xml
+2015-02-17 14:45:12,288 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/amis-utils/3.6.2-SNAPSHOT/maven-metadata.xml
+2015-02-17 14:45:12,472 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/amis-utils/3.6.2-SNAPSHOT/amis-utils-3.6.2-20150217.082334-70.pom
+2015-02-17 14:45:12,817 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/amis-utils/3.6.2-SNAPSHOT/amis-utils-3.6.2-20150217.082334-70.pom
+2015-02-17 14:45:18,306 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/javageom/3.6.2-SNAPSHOT/maven-metadata.xml
+2015-02-17 14:45:18,656 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/javageom/3.6.2-SNAPSHOT/maven-metadata.xml
+2015-02-17 14:45:18,866 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/javageom/3.6.2-SNAPSHOT/javageom-3.6.2-20150217.082215-71.pom
+2015-02-17 14:45:19,212 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/javageom/3.6.2-SNAPSHOT/javageom-3.6.2-20150217.082215-71.pom
+2015-02-17 14:45:19,454 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/introspection/1.0.0/introspection-1.0.0.pom
+2015-02-17 14:45:19,795 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/introspection/1.0.0/introspection-1.0.0.pom
+2015-02-17 14:45:20,016 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/afsm/1.0.1/afsm-1.0.1.pom
+2015-02-17 14:45:20,356 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/afsm/1.0.1/afsm-1.0.1.pom
+2015-02-17 14:45:24,996 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/amis-path-finding/3.6.2-SNAPSHOT/maven-metadata.xml
+2015-02-17 14:45:25,348 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/amis-path-finding/3.6.2-SNAPSHOT/maven-metadata.xml
+2015-02-17 14:45:25,536 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/amis-path-finding/3.6.2-SNAPSHOT/amis-path-finding-3.6.2-20150217.082423-73.pom
+2015-02-17 14:45:25,880 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/amis-path-finding/3.6.2-SNAPSHOT/amis-path-finding-3.6.2-20150217.082423-73.pom
+2015-02-17 14:45:26,349 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.pom
+2015-02-17 14:45:26,639 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.pom
+2015-02-17 14:45:26,754 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.pom
+2015-02-17 14:45:27,101 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/commons-io/commons-io/2.0.1/commons-io-2.0.1.pom
+2015-02-17 14:45:27,577 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/commons-io/commons-io/2.0.1/commons-io-2.0.1.pom
+2015-02-17 14:45:27,780 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/org/apache/commons/commons-parent/15/commons-parent-15.pom
+2015-02-17 14:45:28,411 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/org/apache/commons/commons-parent/15/commons-parent-15.pom
+2015-02-17 14:45:28,611 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/com/martiansoftware/jsap/2.1/jsap-2.1.pom
+2015-02-17 14:45:28,937 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/com/martiansoftware/jsap/2.1/jsap-2.1.pom
+2015-02-17 14:45:33,504 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/amis-tests/3.6.2-SNAPSHOT/maven-metadata.xml
+2015-02-17 14:45:33,858 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/amis-tests/3.6.2-SNAPSHOT/maven-metadata.xml
+2015-02-17 14:45:34,035 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/amis-tests/3.6.2-SNAPSHOT/amis-tests-3.6.2-20150217.082111-72.pom
+2015-02-17 14:45:34,364 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/amis-tests/3.6.2-SNAPSHOT/amis-tests-3.6.2-20150217.082111-72.pom
+2015-02-17 14:45:34,582 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/utils/simple-logging/1.0.0/simple-logging-1.0.0.pom
+2015-02-17 14:45:34,905 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/utils/simple-logging/1.0.0/simple-logging-1.0.0.pom
+2015-02-17 14:45:35,200 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/pogamut/pogamut-ut2004/3.6.2-SNAPSHOT/pogamut-ut2004-3.6.2-20150217.083502-16.jar
+2015-02-17 14:45:39,270 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/pogamut/pogamut-ut2004/3.6.2-SNAPSHOT/pogamut-ut2004-3.6.2-20150217.083502-16.jar
+2015-02-17 14:45:39,430 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/xmllist/1.0.0/xmllist-1.0.0.jar
+2015-02-17 14:45:39,761 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/xmllist/1.0.0/xmllist-1.0.0.jar
+2015-02-17 14:45:39,927 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/pogamut/pogamut-unreal/3.6.2-SNAPSHOT/pogamut-unreal-3.6.2-20150217.082825-12.jar
+2015-02-17 14:45:40,323 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/pogamut/pogamut-unreal/3.6.2-SNAPSHOT/pogamut-unreal-3.6.2-20150217.082825-12.jar
+2015-02-17 14:45:40,493 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/pogamut/pogamut-base/3.6.2-SNAPSHOT/pogamut-base-3.6.2-20150217.082744-66.jar
+2015-02-17 14:45:41,603 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/pogamut/pogamut-base/3.6.2-SNAPSHOT/pogamut-base-3.6.2-20150217.082744-66.jar
+2015-02-17 14:45:41,771 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/amis-utils/3.6.2-SNAPSHOT/amis-utils-3.6.2-20150217.082334-70.jar
+2015-02-17 14:45:42,408 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/amis-utils/3.6.2-SNAPSHOT/amis-utils-3.6.2-20150217.082334-70.jar
+2015-02-17 14:45:42,575 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/javageom/3.6.2-SNAPSHOT/javageom-3.6.2-20150217.082215-71.jar
+2015-02-17 14:45:44,452 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/javageom/3.6.2-SNAPSHOT/javageom-3.6.2-20150217.082215-71.jar
+2015-02-17 14:45:44,627 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/introspection/1.0.0/introspection-1.0.0.jar
+2015-02-17 14:45:44,986 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/introspection/1.0.0/introspection-1.0.0.jar
+2015-02-17 14:45:45,164 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/afsm/1.0.1/afsm-1.0.1.jar
+2015-02-17 14:45:45,541 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/afsm/1.0.1/afsm-1.0.1.jar
+2015-02-17 14:45:45,706 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/amis-path-finding/3.6.2-SNAPSHOT/amis-path-finding-3.6.2-20150217.082423-73.jar
+2015-02-17 14:45:46,071 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/amis-path-finding/3.6.2-SNAPSHOT/amis-path-finding-3.6.2-20150217.082423-73.jar
+2015-02-17 14:45:46,500 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar
+2015-02-17 14:45:46,832 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar
+2015-02-17 14:45:48,040 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar
+2015-02-17 14:45:48,218 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/com/martiansoftware/jsap/2.1/jsap-2.1.jar
+2015-02-17 14:45:48,720 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/com/martiansoftware/jsap/2.1/jsap-2.1.jar
+2015-02-17 14:45:48,881 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/amis-tests/3.6.2-SNAPSHOT/amis-tests-3.6.2-20150217.082111-72.jar
+2015-02-17 14:45:49,229 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/amis-tests/3.6.2-SNAPSHOT/amis-tests-3.6.2-20150217.082111-72.jar
+2015-02-17 14:45:49,405 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/utils/simple-logging/1.0.0/simple-logging-1.0.0.jar
+2015-02-17 14:45:49,736 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://diana.ms.mff.cuni.cz:8081/artifactory/repo/cz/cuni/amis/utils/simple-logging/1.0.0/simple-logging-1.0.0.jar
+2015-02-17 14:45:51,202 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar
+2015-02-17 14:45:51,826 [Worker-38] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar
+2015-02-17 14:45:53,485 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-17 14:45:53,502 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2015-02-17 14:45:53,529 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-17 14:45:53,532 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-02-17 14:45:56,628 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-17 14:45:56,684 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2015-02-17 14:45:56,699 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-17 14:45:56,703 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-02-17 14:58:24,885 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-17 14:58:24,891 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2015-02-17 14:58:24,895 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-17 14:58:24,897 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-02-17 14:58:53,688 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-17 14:58:53,691 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2015-02-17 14:58:53,692 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-17 14:58:53,694 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-02-17 14:59:14,480 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-17 14:59:14,484 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2015-02-17 14:59:14,489 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-17 14:59:14,491 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-02-17 15:00:57,150 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-17 15:00:57,152 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2015-02-17 15:00:57,154 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-17 15:00:57,157 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-02-17 15:02:54,819 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-17 15:02:54,823 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2015-02-17 15:02:54,827 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-17 15:02:54,829 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-02-17 15:03:00,448 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-17 15:03:00,450 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2015-02-17 15:03:00,451 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-17 15:03:00,454 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-02-17 15:03:03,148 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-17 15:03:03,152 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2015-02-17 15:03:03,156 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-17 15:03:03,158 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-02-17 15:03:38,335 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-17 15:03:38,337 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2015-02-17 15:03:38,340 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-17 15:03:38,342 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-02-17 15:03:40,499 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-17 15:03:40,503 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2015-02-17 15:03:40,506 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-17 15:03:40,509 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-02-17 15:03:42,689 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-17 15:03:42,691 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2015-02-17 15:03:42,692 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-17 15:03:42,695 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-02-26 10:50:22,858 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-26 10:50:22,903 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2015-02-26 10:50:22,948 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-02-26 10:50:22,949 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource

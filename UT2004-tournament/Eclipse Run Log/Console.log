@@ -1,0 +1,183 @@
+Range("A1:A20").Select
+Selection.Copy
+Range("B2:B21").Select
+ActiveSheet.Paste
+
+Range("A21:A40").Select
+Selection.Copy
+Range("C2:C21").Select
+ActiveSheet.Paste
+
+Range("A41:A60").Select
+Selection.Copy
+Range("D2:D21").Select
+ActiveSheet.Paste
+
+Range("A61:A80").Select
+Selection.Copy
+Range("E2:E21").Select
+ActiveSheet.Paste
+
+Range("A81:A100").Select
+Selection.Copy
+Range("F2:F21").Select
+ActiveSheet.Paste
+
+Range("A101:A120").Select
+Selection.Copy
+Range("G2:G21").Select
+ActiveSheet.Paste
+
+Range("A121:A140").Select
+Selection.Copy
+Range("H2:H21").Select
+ActiveSheet.Paste
+
+Range("A141:A160").Select
+Selection.Copy
+Range("I2:I21").Select
+ActiveSheet.Paste
+
+Range("A161:A180").Select
+Selection.Copy
+Range("J2:J21").Select
+ActiveSheet.Paste
+
+Range("A181:A200").Select
+Selection.Copy
+Range("K2:K21").Select
+ActiveSheet.Paste
+
+Range("A201:A220").Select
+Selection.Copy
+Range("L2:L21").Select
+ActiveSheet.Paste
+
+Range("A221:A240").Select
+Selection.Copy
+Range("M2:M21").Select
+ActiveSheet.Paste
+
+Range("A241:A260").Select
+Selection.Copy
+Range("N2:N21").Select
+ActiveSheet.Paste
+
+Range("A261:A280").Select
+Selection.Copy
+Range("O2:O21").Select
+ActiveSheet.Paste
+
+Range("A281:A300").Select
+Selection.Copy
+Range("P2:P21").Select
+ActiveSheet.Paste
+
+Range("A301:A320").Select
+Selection.Copy
+Range("Q2:Q21").Select
+ActiveSheet.Paste
+
+Range("A321:A340").Select
+Selection.Copy
+Range("R2:R21").Select
+ActiveSheet.Paste
+
+Range("A341:A360").Select
+Selection.Copy
+Range("S2:S21").Select
+ActiveSheet.Paste
+
+Range("A361:A380").Select
+Selection.Copy
+Range("T2:T21").Select
+ActiveSheet.Paste
+
+Range("A381:A400").Select
+Selection.Copy
+Range("U2:U21").Select
+ActiveSheet.Paste
+
+Range("A401:A420").Select
+Selection.Copy
+Range("V2:V21").Select
+ActiveSheet.Paste
+
+Range("A421:A440").Select
+Selection.Copy
+Range("W2:W21").Select
+ActiveSheet.Paste
+
+Range("A441:A460").Select
+Selection.Copy
+Range("X2:X21").Select
+ActiveSheet.Paste
+
+Range("A461:A480").Select
+Selection.Copy
+Range("Y2:Y21").Select
+ActiveSheet.Paste
+
+Range("A481:A500").Select
+Selection.Copy
+Range("Z2:Z21").Select
+ActiveSheet.Paste
+
+Range("A501:A520").Select
+Selection.Copy
+Range("AA2:AA21").Select
+ActiveSheet.Paste
+
+Range("A521:A540").Select
+Selection.Copy
+Range("AB2:AB21").Select
+ActiveSheet.Paste
+
+Range("A541:A560").Select
+Selection.Copy
+Range("AC2:AC21").Select
+ActiveSheet.Paste
+
+Range("A561:A580").Select
+Selection.Copy
+Range("AD2:AD21").Select
+ActiveSheet.Paste
+
+Range("A581:A600").Select
+Selection.Copy
+Range("AE2:AE21").Select
+ActiveSheet.Paste
+
+Range("B22").Formula = "=MAX(B2:B21)"
+Range("C22").Formula = "=MAX(C2:C21)"
+Range("D22").Formula = "=MAX(D2:D21)"
+Range("E22").Formula = "=MAX(E2:E21)"
+Range("F22").Formula = "=MAX(F2:F21)"
+Range("G22").Formula = "=MAX(G2:G21)"
+Range("H22").Formula = "=MAX(H2:H21)"
+Range("I22").Formula = "=MAX(I2:I21)"
+Range("J22").Formula = "=MAX(J2:J21)"
+Range("K22").Formula = "=MAX(K2:K21)"
+Range("L22").Formula = "=MAX(L2:L21)"
+Range("M22").Formula = "=MAX(M2:M21)"
+Range("N22").Formula = "=MAX(N2:N21)"
+Range("O22").Formula = "=MAX(O2:O21)"
+Range("P22").Formula = "=MAX(P2:P21)"
+Range("Q22").Formula = "=MAX(Q2:Q21)"
+Range("R22").Formula = "=MAX(R2:R21)"
+Range("S22").Formula = "=MAX(S2:S21)"
+Range("T22").Formula = "=MAX(T2:T21)"
+Range("U22").Formula = "=MAX(U2:U21)"
+Range("V22").Formula = "=MAX(V2:V21)"
+Range("W22").Formula = "=MAX(W2:W21)"
+Range("X22").Formula = "=MAX(X2:X21)"
+Range("Y22").Formula = "=MAX(Y2:Y21)"
+Range("Z22").Formula = "=MAX(Z2:Z21)"
+Range("AA22").Formula = "=MAX(AA2:AA21)"
+Range("AB22").Formula = "=MAX(AB2:AB21)"
+Range("AC22").Formula = "=MAX(AC2:AC21)"
+Range("AD22").Formula = "=MAX(AD2:AD21)"
+Range("AE22").Formula = "=MAX(AE2:AE21)"
+
+Range("B2:AE22").Select
+Selection.Copy

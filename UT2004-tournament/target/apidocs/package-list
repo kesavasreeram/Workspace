@@ -1,0 +1,10 @@
+au.com.bytecode.opencsv
+au.com.bytecode.opencsv.bean
+cz.cuni.amis.pogamut.ut2004.tournament
+cz.cuni.amis.pogamut.ut2004.tournament.botexecution
+cz.cuni.amis.pogamut.ut2004.tournament.capturetheflag
+cz.cuni.amis.pogamut.ut2004.tournament.deathmatch
+cz.cuni.amis.pogamut.ut2004.tournament.generator
+cz.cuni.amis.pogamut.ut2004.tournament.match
+cz.cuni.amis.pogamut.ut2004.tournament.match.result
+cz.cuni.amis.pogamut.ut2004.tournament.utils
