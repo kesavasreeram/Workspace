@@ -1,0 +1,72 @@
+/**
+ * 
+ */
+package cz.cuni.amis.pogamut.ut2004.bot.params;
+
+import com.kesava.ctfbotbase.CTFBotParams;
+
+/**
+ * @author MotionCapture
+ *
+ */
+public class BotParameters extends UT2004BotParameters
+{
+	/**
+	 * Team where this bot should fight in.
+	 */
+	private int team = 0;
+
+	/**
+	 * This returns the skin of the bot to be used.
+	 * @return
+	 */
+	public String getBotSkin() {
+		return botSkin;
+	}
+
+	/**
+	 * Sets the skin to be used for the bot.
+	 * @param botSkin
+	 * @return
+	 */
+	public CTFBotParams setBotSkin(String botSkin) {
+		this.botSkin = botSkin;
+		return this;
+	}
+
+	/**
+	 * This returns the desired skill level of the bot to be used.
+	 * @return
+	 */
+	public int getSkillLevel() {
+		return skillLevel;
+	}
+
+	/**
+	 * Sets desired skill level of the bot. 
+	 * @param skillLevel
+	 * @return
+	 */
+	public CTFBotParams setSkillLevel(int skillLevel) {
+		this.skillLevel = skillLevel;
+		return this;
+	}
+
+	/**
+	 * Returns team of the bot.
+	 * @return
+	 */
+	public Integer getTeam() {
+		return team;
+	}
+
+	/**
+	 * Sets team the bot will fight in.
+	 * @param team
+	 */
+	public CTFBotParams setTeam(int team) {
+		this.team = team;
+		return this;
+	}
+
+}

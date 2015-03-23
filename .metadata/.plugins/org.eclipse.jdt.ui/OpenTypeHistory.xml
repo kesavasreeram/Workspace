@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+<typeInfo handle="=CTFBotBase/src\/main\/java&lt;com.kesava.ctfbotbase{Goal.java[Goal" modifiers="1025" timestamp="1424206185679"/>
+<typeInfo handle="=ImitationBot/C:\/Users\/MotionCapture\/.m2\/repository\/cz\/cuni\/amis\/pogamut\/pogamut-ut2004\/3.5.3\/pogamut-ut2004-3.5.3.jar&lt;cz.cuni.amis.pogamut.ut2004.bot.params(UT2004BotParameters.class[UT2004BotParameters" modifiers="33" timestamp="1386094294110"/>
+<typeInfo handle="=ImitationBot/C:\/Users\/MotionCapture\/.m2\/repository\/cz\/cuni\/amis\/pogamut\/pogamut-ut2004\/3.5.3\/pogamut-ut2004-3.5.3.jar&lt;cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages(FlagInfo.class[FlagInfo" modifiers="1057" timestamp="1386094294110"/>
+</typeInfoHistroy>

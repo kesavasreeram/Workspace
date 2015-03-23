@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.logging.Level"/>
+<fullyQualifiedTypeName name="cz.cuni.amis.pogamut.base.agent.utils.runner.impl.AgentRunner"/>
+<fullyQualifiedTypeName name="cz.cuni.amis.pogamut.base.agent.navigation.impl.PrecomputedPathFuture"/>
+</qualifiedTypeNameHistroy>

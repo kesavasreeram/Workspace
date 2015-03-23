@@ -2,13 +2,24 @@
 <section name="Workbench">
 	<section name="ExternalProjectImportWizard">
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
-		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
-			<item value="D:\Kesava\UT 2004"/>
+			<item value="C:\Kesava\NetbeansWorkSpace\NavigationBot"/>
+			<item value="C:\Kesava\NetbeansWorkSpace\FSM_bot"/>
+			<item value="C:\Kesava\NetbeansWorkSpace\ImitationBot"/>
+			<item value="C:\Kesava\NetbeansWorkSpace\UT2-Botprize2012"/>
+			<item value="C:\Kesava\NetbeansWorkSpace\CTFBotBase"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>
 		</list>
+	</section>
+	<section name="CleanDialogSettings">
+		<item value="500" key="DIALOG_WIDTH"/>
+		<item value="229" key="DIALOG_Y_ORIGIN"/>
+		<item value="377" key="DIALOG_HEIGHT"/>
+		<item value="2630" key="DIALOG_X_ORIGIN"/>
+		<item value="true" key="TOGGLE_SELECTED"/>
 	</section>
 </section>

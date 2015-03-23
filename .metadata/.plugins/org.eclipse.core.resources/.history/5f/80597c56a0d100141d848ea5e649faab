@@ -1,0 +1,100 @@
+/**
+ * 
+ */
+package cz.cuni.amis.pogamut.ut2004.examples.imitationbot;
+
+import cz.cuni.amis.pogamut.base3d.worldview.object.Location;
+import cz.cuni.amis.pogamut.multi.communication.worldview.object.ILocalWorldObject;
+import cz.cuni.amis.pogamut.multi.communication.worldview.object.ISharedWorldObject;
+import cz.cuni.amis.pogamut.multi.communication.worldview.object.IStaticWorldObject;
+import cz.cuni.amis.pogamut.unreal.communication.messages.UnrealId;
+import cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.FlagInfo;
+
+/**
+ * @author MotionCapture
+ *
+ */
+public class FlagInformation extends FlagInfo {
+
+	/* (non-Javadoc)
+	 * @see cz.cuni.amis.pogamut.multi.communication.worldview.object.ICompositeWorldObject#getLocal()
+	 */
+	@Override
+	public ILocalWorldObject getLocal() {
+		// TODO Auto-generated method stub
+		return super.;
+	}
+
+	/* (non-Javadoc)
+	 * @see cz.cuni.amis.pogamut.multi.communication.worldview.object.ICompositeWorldObject#getShared()
+	 */
+	@Override
+	public ISharedWorldObject getShared() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see cz.cuni.amis.pogamut.multi.communication.worldview.object.ICompositeWorldObject#getStatic()
+	 */
+	@Override
+	public IStaticWorldObject getStatic() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.FlagInfo#getHolder()
+	 */
+	@Override
+	public UnrealId getHolder() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.FlagInfo#getId()
+	 */
+	@Override
+	public UnrealId getId() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.FlagInfo#getLocation()
+	 */
+	@Override
+	public Location getLocation() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.FlagInfo#getState()
+	 */
+	@Override
+	public String getState() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.FlagInfo#getTeam()
+	 */
+	@Override
+	public Integer getTeam() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.FlagInfo#isVisible()
+	 */
+	@Override
+	public boolean isVisible() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

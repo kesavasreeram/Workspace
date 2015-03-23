@@ -1,0 +1,48 @@
+package com.kesava.ctfbotbase.goals;
+
+import com.kesava.ctfbotbase.CTFBot;
+import com.kesava.ctfbotbase.Goal;
+
+public class EngageEnemy extends Goal
+{
+	
+	public EngageEnemy(CTFBot bot) {
+		super(bot);
+	}
+
+	@Override
+	public void perform() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public double getPriority()
+	{
+		
+		//TODO: kesava need to find if the goals are sorted based on priority or not
+
+		if (bot.getEnemyFlag() != null &&
+				bot.getInfo().getId().equals(bot.getEnemyFlag().getHolder())) {
+			return 50d;
+		} else {
+			return 10d;
+		}
+	}
+
+	@Override
+	public boolean hasFailed() {
+		return false;
+	}
+
+	@Override
+	public boolean hasFinished() {
+		return false;
+	}
+
+	@Override
+	public void abandon() {
+		return;
+	}
+
+}

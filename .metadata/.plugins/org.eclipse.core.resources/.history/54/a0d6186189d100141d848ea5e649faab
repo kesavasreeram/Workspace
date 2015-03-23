@@ -1,0 +1,527 @@
+/**
+ * Copyright © 2015 by Kesava Sreeram Talabattula.
+ */
+
+package com.kesava.ctfbotbase;
+
+import java.util.logging.Level;
+
+import cz.cuni.amis.introspection.java.JProp;
+import cz.cuni.amis.pogamut.base.agent.navigation.IPathExecutorState;
+import cz.cuni.amis.pogamut.base.agent.navigation.IPathFuture;
+import cz.cuni.amis.pogamut.base.agent.navigation.impl.PrecomputedPathFuture;
+import cz.cuni.amis.pogamut.base.agent.utils.runner.impl.AgentRunner;
+import cz.cuni.amis.pogamut.base.communication.worldview.listener.annotation.EventListener;
+import cz.cuni.amis.pogamut.base.communication.worldview.listener.annotation.ObjectClassEventListener;
+import cz.cuni.amis.pogamut.base.communication.worldview.object.IWorldObjectEvent;
+import cz.cuni.amis.pogamut.base.utils.guice.AgentScoped;
+import cz.cuni.amis.pogamut.base3d.worldview.object.ILocated;
+import cz.cuni.amis.pogamut.base3d.worldview.object.Location;
+import cz.cuni.amis.pogamut.base3d.worldview.object.event.WorldObjectAppearedEvent;
+import cz.cuni.amis.pogamut.unreal.communication.messages.UnrealId;
+import cz.cuni.amis.pogamut.ut2004.agent.module.sensor.AgentInfo;
+import cz.cuni.amis.pogamut.ut2004.agent.module.utils.TabooSet;
+import cz.cuni.amis.pogamut.ut2004.agent.navigation.UT2004PathAutoFixer;
+import cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetector.UT2004DistanceStuckDetector;
+import cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetector.UT2004PositionStuckDetector;
+import cz.cuni.amis.pogamut.ut2004.agent.navigation.stuckdetector.UT2004TimeStuckDetector;
+import cz.cuni.amis.pogamut.ut2004.agent.params.UT2004AgentParameters;
+import cz.cuni.amis.pogamut.ut2004.bot.impl.UT2004Bot;
+import cz.cuni.amis.pogamut.ut2004.bot.impl.UT2004BotModuleController;
+import cz.cuni.amis.pogamut.ut2004.communication.messages.ItemType;
+import cz.cuni.amis.pogamut.ut2004.communication.messages.gbcommands.Initialize;
+import cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.BotKilled;
+import cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.ConfigChange;
+import cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.FlagInfo;
+import cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.GameInfo;
+import cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.InitedMessage;
+import cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.Item;
+import cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.Player;
+import cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.PlayerKilled;
+
+import com.kesava.ctfbotbase.goals.CloseInOnEnemy;
+import com.kesava.ctfbotbase.goals.GetEnemyFlag;
+import com.kesava.ctfbotbase.goals.GetHealth;
+import com.kesava.ctfbotbase.goals.GetItems;
+import com.kesava.ctfbotbase.goals.GetOurFlag;
+import com.kesava.ctfbotbase.goals.GoalManager;
+
+import cz.cuni.amis.pogamut.ut2004.utils.UT2004BotRunner;
+import cz.cuni.amis.utils.Heatup;
+import cz.cuni.amis.utils.exception.PogamutException;
+import cz.cuni.amis.utils.flag.FlagListener;
+
+/**
+ * This work is based on top a simple Pogamut example bot by:
+ * 
+ * @author Rudolf Kadlec aka ik
+ * @author Jimmy
+ */
+
+
+@AgentScoped
+public class CTFBot extends UT2004BotModuleController<UT2004Bot> {
+
+	/** boolean switch to activate engage behavior */
+	@JProp
+	public boolean shouldEngage = true;
+
+	/** boolean switch to activate pursue behavior */
+	@JProp
+	public boolean shouldPursue = true;
+
+	/** boolean switch to activate rearm behavior */
+	@JProp
+	public boolean shouldRearm = true;
+
+	/** boolean switch to activate collect items behavior */
+	@JProp
+	public boolean shouldCollectItems = true;
+
+	/** boolean switch to activate collect health behavior */
+	@JProp
+	public boolean shouldCollectHealth = true;
+
+	/** how low the health level should be to start collecting health items */
+	@JProp
+	public int healthLevel = 90;
+
+	/**
+	 * how many bot the hunter killed other bots (i.e., bot has fragged them /
+	 * got point for killing somebody)
+	 */
+	@JProp
+	public int frags = 0;
+
+	/** how many times the hunter died */
+	@JProp
+	public int deaths = 0;
+
+	protected GameInfo gameInfo;
+
+	@JProp
+	protected Location pathTarget;
+
+	/**
+	 * Returns parameters of the bot.
+	 * @return
+	 */
+	public CTFBotParams getParams() {
+		return (CTFBotParams)bot.getParams();
+	}
+	
+	public Location getPathTarget() {
+		return pathTarget;
+	}
+
+	/**
+	 * {@link PlayerKilled} listener that provides "frag" counting + is switches
+	 * the state of the hunter.
+	 * 
+	 * @param event
+	 */
+	@EventListener(eventClass = PlayerKilled.class)
+	public void playerKilled(PlayerKilled event) {
+		if (event.getKiller().equals(info.getId()))	++frags;
+		if (enemy == null) return;
+		if (enemy.getId().equals(event.getId())) {
+			enemy = null;
+		}
+	}
+
+	/**
+	 * Used internally to maintain the information about the bot we're currently
+	 * hunting, i.e., should be firing at.
+	 */
+	protected Player enemy = null;
+
+	/**
+	 * Taboo list of items that are forbidden for some time.
+	 */
+	protected TabooSet<Item> tabooItems = null;
+
+	protected GetItems getItemsGoal;
+
+	protected boolean firstLogic = true;
+
+	/**
+	 * Bot's preparation - called before the bot is connected to GB2004 and
+	 * launched into UT2004.
+	 */
+	@Override
+	public void prepareBot(UT2004Bot bot) {
+		tabooItems = new TabooSet<Item>(bot);
+
+		// add stuck detector that watch over the path-following, if it
+		// (heuristically) finds out that the bot has stuck somewhere,
+		// it reports an appropriate path event and the path executor will stop
+		// following the path which in turn allows
+		// us to issue another follow-path command in the right time
+		pathExecutor.addStuckDetector(new UT2004TimeStuckDetector(bot, 3.0, 10.0)); 
+		                // if the bot does not move for 3 seconds, considered that it is stuck
+		
+		//TODO : kesava removed below
+		//pathExecutor.addStuckDetector(new UT2004PositionHistoryStuckDetector(bot)); 
+		                // watch over the position history of the bot, if the bot does not move sufficiently enough, consider that it is stuck
+
+		// listeners
+		pathExecutor.getState().addListener(
+				new FlagListener<IPathExecutorState>() {
+					@Override
+					public void flagChanged(IPathExecutorState changedValue) {
+						switch (changedValue.getState()) {
+							case STUCK:
+								Item item = getItemsGoal.getItem();
+								if (item != null && pathTarget != null
+										&& item.getLocation()
+												.equals(pathTarget, 10d)) {
+									tabooItems.add(item, 10);
+								}
+								reset();
+								break;
+
+							case TARGET_REACHED:
+								reset();
+								break;
+						}
+					}
+				});
+
+		// DEFINE WEAPON PREFERENCES
+		weaponPrefs.addGeneralPref(ItemType.MINIGUN, false);
+		weaponPrefs.addGeneralPref(ItemType.MINIGUN, true);
+		weaponPrefs.addGeneralPref(ItemType.LINK_GUN, false);
+		weaponPrefs.addGeneralPref(ItemType.LIGHTNING_GUN, true);
+		weaponPrefs.addGeneralPref(ItemType.SHOCK_RIFLE, true);
+		weaponPrefs.addGeneralPref(ItemType.ROCKET_LAUNCHER, true);
+		weaponPrefs.addGeneralPref(ItemType.LINK_GUN, true);
+		weaponPrefs.addGeneralPref(ItemType.ASSAULT_RIFLE, true);
+		weaponPrefs.addGeneralPref(ItemType.FLAK_CANNON, false);
+		weaponPrefs.addGeneralPref(ItemType.FLAK_CANNON, true);
+		weaponPrefs.addGeneralPref(ItemType.BIO_RIFLE, true);
+
+		
+		//TODO : Kesava , Need to edit this based on the details of Reinforcement Leanning
+		
+		
+		goalManager = new GoalManager(this.bot);
+//		goalManager.addGoal(new GetEnemyFlag(this));
+		goalManager.addGoal(new GetOurFlag(this));
+		goalManager.addGoal(new GetHealth(this));
+//		goalManager.addGoal(getItemsGoal = new GetItems(this));
+//		goalManager.addGoal(new CloseInOnEnemy(this));
+	}
+
+	@Override
+	public void botInitialized(GameInfo gameInfo, ConfigChange currentConfig, InitedMessage init) {
+		this.gameInfo = gameInfo;
+	}
+
+	/**
+	 * Here we can modify initialization-command for our bot.
+	 * @return
+	 */
+	@Override
+	public Initialize getInitializeCommand() {
+		
+		//TODO : kesava
+		//return new Initialize().setName("Kesava BOT").setDesiredSkill(5).setTeam(1);
+		return new Initialize().setDesiredSkill(getParams().getSkillLevel()).setTeam(getParams().getTeam());
+	}
+
+	protected FlagInfo ourFlag, enemyFlag;
+	protected Location ourBase, enemyBase;
+
+	protected GoalManager goalManager = null;
+	
+	protected final Heatup targetHU = new Heatup(5000);
+
+	public void setPath(IPathFuture<ILocated> path)
+	{
+		pathTarget = path.getPathTo().getLocation();
+		
+		//TODO : kesava
+		try
+		{
+			pathExecutor.followPath(path);
+		}
+		catch(Exception e)
+		{
+			System.out.println("Just wanted to see if this will solve the problem");
+		}
+	}
+
+	public boolean goTo(ILocated target) {
+		if (target == null) {
+			log.info("goTo: null");
+			return false;
+		}
+		log.info(String.format(
+				"goTo: %s %s",
+				target.toString(),
+				info.getLocation()));
+
+		if (pathExecutor.isExecuting()) {
+
+			log.info("executing");
+			if (target.getLocation().getDistance(getInfo()
+					.getLocation()) < AgentInfo.AT_LOCATION_EPSILON) {
+				return false;
+			}
+			if (pathTarget != null
+					&& target.getLocation().getDistance(pathTarget)
+					< AgentInfo.AT_LOCATION_EPSILON) {
+				return false;
+			}
+		}
+
+		/* if (!info.atLocation(location, 400d)) { */
+		setPath(pathPlanner.computePath(
+				info.getLocation(),
+				target));
+		log.info("Moving Along Path. Distance: "
+				+ info.getLocation().getDistance(target.getLocation()));
+		/*
+		 * } else { move.moveTo(location); log.info("Moving To."); }
+		 */
+		return true;
+	}
+        
+        
+	public boolean goTo(Location location) {
+
+		if (location == null) {
+			log.info("goTo: null");
+			return false;
+		}
+		log.info(String.format(
+				"goTo: %s %s",
+				location.toString(),
+				info.getLocation()));
+
+		if (pathExecutor.isExecuting()) {
+			
+			log.info("executing");
+			if (location.getDistance(getInfo()
+					.getLocation()) < AgentInfo.AT_LOCATION_EPSILON) {
+				return false;
+			}
+			if (pathTarget != null && location.getDistance(pathTarget)
+					< AgentInfo.AT_LOCATION_EPSILON) {
+				return false;
+			}
+		}
+
+		/* if (!info.atLocation(location, 400d)) { */
+		setPath(pathPlanner.computePath(
+				info.getLocation(),
+				location));
+		log.info("Moving Along Path. Distance: "
+				+ info.getLocation().getDistance(location));
+		
+//		if (!pathExecutor.isExecuting()) {
+//            log.info("Setting custom path now!");
+//            IPathFuture myPath = new PrecomputedPathFuture(customPath.get(0), customPath.get(customPath.size() - 1), customPath);
+//            pathExecutor.followPath(myPath);
+//        }  
+		
+		/*
+		 * } else { move.moveTo(location); log.info("Moving To."); }
+		 */
+		return true;
+	}
+
+	public boolean holdingOrSupporting() {
+		FlagInfo ourFlag = getOurFlag();
+
+		if (ourFlag == null)
+			return false;
+
+		UnrealId holderId = ourFlag.getHolder();
+
+		if (holderId == null)
+			return false;
+
+		if (info.getId().equals(holderId))
+			return true;
+
+		Player holder = players.getPlayer(holderId);
+
+		if (holder.getTeam() == info.getTeam()
+				&& getInfo().getDistance(holder) < 60d) {
+			return true;
+		}
+
+		return false;
+	}
+
+	public void updateFight() {
+		if (enemy == null || enemy.isVisible())
+			enemy = (Player) getPlayers().getNearestVisibleEnemy();
+
+
+		Player nearest_target = players.getNearestVisibleEnemy();
+
+		if (enemy == null) {
+			enemy = nearest_target;
+		} else {
+			if (nearest_target == enemy) {
+				targetHU.heat();
+			} else if (targetHU.isCool()) {
+				enemy = nearest_target;
+			}
+		}
+
+		shoot();
+	}
+
+	public void updateFight(Player newEnemy) {
+		if (newEnemy == null || !newEnemy.isVisible())
+			newEnemy = (Player) getPlayers().getNearestVisibleEnemy();
+
+		enemy = newEnemy;
+
+		shoot();
+	}
+
+	public void shoot() {
+		if (enemy != null && enemy.isVisible())
+			shoot.shoot(weaponPrefs, enemy);
+		else {
+			shoot.stopShoot();
+			enemy = null;
+		}
+	}
+
+
+	/**
+	 * Resets the state of the Hunter.
+	 */
+	protected void reset() {
+		notMoving = 0;
+		enemy = null;
+		pathExecutor.stop();
+	}
+
+	/**
+	 * Global anti-stuck mechanism. When this counter reaches a certain
+	 * constant, the bot's mind gets a {@link CTFBot#reset()}.
+	 */
+	protected int notMoving = 0;
+
+	@ObjectClassEventListener(objectClass = FlagInfo.class, eventClass = WorldObjectAppearedEvent.class)
+	public void flagSighted(IWorldObjectEvent<FlagInfo> event) {
+		if (event.getObject().getTeam() == getInfo().getTeam()) {
+			ourFlag = event.getObject();
+		} else {
+			enemyFlag = event.getObject();
+		}
+		log.info(String.format("Flag: %s", event.getObject().toString()));
+	}
+
+	/*
+	 * protected IWorldEventListener<GameInfoMessage> gameInfoListener = new
+	 * IWorldEventListener<GameInfoMessage>() {
+	 * 
+	 * @Override public void notify(GameInfoMessage event) {
+	 * log.info(String.format("Glorious! %s", event.toString())); switch
+	 * (getInfo().getTeam()) { case 0: ourBase = event.getRedBaseLocation();
+	 * enemyBase = event.getBlueBaseLocation(); break; case 1: ourBase =
+	 * event.getBlueBaseLocation(); enemyBase = event.getRedBaseLocation();
+	 * break; } } };
+	 */
+
+	public Location getOurFlagBase() {
+		return ourBase;
+	}
+
+	public Location getEnemyFlagBase() {
+		return enemyBase;
+	}
+
+	public FlagInfo getOurFlag() {
+		return ourFlag;
+	}
+
+	public FlagInfo getEnemyFlag() {
+		return enemyFlag;
+	}
+
+	public Player getEnemy() {
+		return enemy;
+	}
+
+	/**
+	 * Main method that controls the bot - makes decisions what to do next. It
+	 * is called iteratively by Pogamut engine every time a synchronous batch
+	 * from the environment is received. This is usually 4 times per second - it
+	 * is affected by visionTime variable, that can be adjusted in GameBots ini
+	 * file in UT2004/System folder.
+	 * 
+	 * @throws cz.cuni.amis.pogamut.base.exceptions.PogamutException
+	 */
+        
+    //TODO: Kesava. this is where we need to get the FSM for our program
+	@Override
+	public void logic()
+	{
+		if (firstLogic) {
+			firstLogic = false;
+			switch (info.getTeam()) {
+				case 0:
+					ourBase = gameInfo.getRedBaseLocation();
+					enemyBase = gameInfo.getBlueBaseLocation();
+					break;
+				case 1:
+					ourBase = gameInfo.getBlueBaseLocation();
+					enemyBase = gameInfo.getRedBaseLocation();
+					break;
+			}
+		}
+		
+		goalManager.executeBestGoal();
+	}
+	
+	
+	
+
+	public TabooSet<Item> getTaboo() {
+		return tabooItems;
+	}
+
+
+	// //////////
+	// //////////////
+	// BOT KILLED //
+	// //////////////
+	// //////////
+
+	@Override
+	public void botKilled(BotKilled event) {
+		reset();
+	}
+
+	// //////////////////////////////////////////
+	// //////////////////////////////////////////
+	// //////////////////////////////////////////
+
+	public static void main(String args[]) throws PogamutException {
+		// starts 4 CTFBots at once
+		// note that this is the most easy way to get a bunch of bots running at
+		// the same time
+		
+//		new UT2004BotRunner(CTFBot.class, "CTFBot").setMain(true).setLogLevel(Level.FINER).startAgent();
+		
+		new UT2004BotRunner<UT2004Bot, CTFBotParams>(CTFBot.class, "CTFBot").setMain(true)
+			.startAgents(
+				new CTFBotParams().setBotSkin("HumanFemaleA.MercFemaleA").setSkillLevel(5).setTeam(1)
+			);
+	}
+
+	public void goTo(FlagInfo enemyFlag)
+	{
+		//TODO ; kesava testing this
+		navigation.navigate((ILocated) enemyFlag);
+	}
+
+}
