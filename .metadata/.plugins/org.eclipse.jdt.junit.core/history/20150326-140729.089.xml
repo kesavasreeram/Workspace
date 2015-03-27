@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="UT2004TournamentTest01_UT2004CaptureTheFlag" project="UT2004-tournament_NEW" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="cz.cuni.amis.pogamut.ut2004.tournament.capturetheflag.UT2004TournamentTest01_UT2004CaptureTheFlag" time="1.192">
+    <testcase name="test01" classname="cz.cuni.amis.pogamut.ut2004.tournament.capturetheflag.UT2004TournamentTest01_UT2004CaptureTheFlag" time="1.192">
+      <error>UCCStartException[Thread[UCC Stream handler,5,main]: UCC failed to start to due to some error.]&#13;
+	at cz.cuni.amis.pogamut.ut2004.utils.UCCWrapper$ScannerSink.handleInput(UCCWrapper.java:237)&#13;
+	at cz.cuni.amis.pogamut.ut2004.utils.UCCWrapper$StreamSink.run(UCCWrapper.java:150)&#13;
+	at cz.cuni.amis.pogamut.ut2004.utils.UCCWrapper$ScannerSink.run(UCCWrapper.java:164)&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

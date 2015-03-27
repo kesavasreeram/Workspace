@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package edu.okstate.kesava.thesis;
+
+/**
+ * @author MotionCapture
+ *
+ */
+public class ThesisMain {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

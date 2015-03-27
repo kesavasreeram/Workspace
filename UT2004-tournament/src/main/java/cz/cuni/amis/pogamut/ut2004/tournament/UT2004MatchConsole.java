@@ -64,90 +64,91 @@ public class UT2004MatchConsole {
 	static String baseLineBotsPATH = "C:\\Users\\MotionCapture\\Documents\\NetBeansProjects\\mavenproject3\\target\\mavenproject3-1.0-SNAPSHOT.one-jar.jar";
 	static String baseLineBotTeamPATH = ";" + baseLineBotsPATH +";" + baseLineBotsPATH + ";" + baseLineBotsPATH;
 
-	static String bot1JAR = "C:\\Karthik\\Simulation\\JAR\\1.jar";
-	static String bot2JAR = "C:\\Karthik\\Simulation\\JAR\\2.jar";
-	static String bot3JAR = "C:\\Karthik\\Simulation\\JAR\\3.jar";
-	static String bot4JAR = "C:\\Karthik\\Simulation\\JAR\\4.jar";
-	static String bot5JAR = "C:\\Karthik\\Simulation\\JAR\\5.jar";
-	static String bot6JAR = "C:\\Karthik\\Simulation\\JAR\\6.jar";
-	static String bot7JAR = "C:\\Karthik\\Simulation\\JAR\\7.jar";
-	static String bot8JAR = "C:\\Karthik\\Simulation\\JAR\\8.jar";
-	static String bot9JAR = "C:\\Karthik\\Simulation\\JAR\\9.jar";
-	static String bot10JAR = "C:\\Karthik\\Simulation\\JAR\\10.jar";
-	static String bot11JAR = "C:\\Karthik\\Simulation\\JAR\\11.jar";
-	static String bot12JAR = "C:\\Karthik\\Simulation\\JAR\\12.jar";
-	static String bot13JAR = "C:\\Karthik\\Simulation\\JAR\\13.jar";
-	static String bot14JAR = "C:\\Karthik\\Simulation\\JAR\\14.jar";
-	static String bot15JAR = "C:\\Karthik\\Simulation\\JAR\\15.jar";
-	static String bot16JAR = "C:\\Karthik\\Simulation\\JAR\\16.jar";
-	static String bot17JAR = "C:\\Karthik\\Simulation\\JAR\\17.jar";
-	static String bot18JAR = "C:\\Karthik\\Simulation\\JAR\\18.jar";
-	static String bot19JAR = "C:\\Karthik\\Simulation\\JAR\\19.jar";
-	static String bot20JAR = "C:\\Karthik\\Simulation\\JAR\\20.jar";
-	static String bot21JAR = "C:\\Karthik\\Simulation\\JAR\\21.jar";
-	static String bot22JAR = "C:\\Karthik\\Simulation\\JAR\\22.jar";
-	static String bot23JAR = "C:\\Karthik\\Simulation\\JAR\\23.jar";
-	static String bot24JAR = "C:\\Karthik\\Simulation\\JAR\\24.jar";
-	static String bot25JAR = "C:\\Karthik\\Simulation\\JAR\\25.jar";
-	static String bot26JAR = "C:\\Karthik\\Simulation\\JAR\\26.jar";
-	static String bot27JAR = "C:\\Karthik\\Simulation\\JAR\\27.jar";
-	static String bot28JAR = "C:\\Karthik\\Simulation\\JAR\\28.jar";
-	static String bot29JAR = "C:\\Karthik\\Simulation\\JAR\\29.jar";
-	static String bot30JAR = "C:\\Karthik\\Simulation\\JAR\\30.jar";
-	static String bot31JAR = "C:\\Karthik\\Simulation\\JAR\\31.jar";
-	static String bot32JAR = "C:\\Karthik\\Simulation\\JAR\\32.jar";
-	static String bot33JAR = "C:\\Karthik\\Simulation\\JAR\\33.jar";
-	static String bot34JAR = "C:\\Karthik\\Simulation\\JAR\\34.jar";
-	static String bot35JAR = "C:\\Karthik\\Simulation\\JAR\\35.jar";
-	static String bot36JAR = "C:\\Karthik\\Simulation\\JAR\\36.jar";
-	static String bot37JAR = "C:\\Karthik\\Simulation\\JAR\\37.jar";
-	static String bot38JAR = "C:\\Karthik\\Simulation\\JAR\\38.jar";
-	static String bot39JAR = "C:\\Karthik\\Simulation\\JAR\\39.jar";
-	static String bot40JAR = "C:\\Karthik\\Simulation\\JAR\\40.jar";
-	static String bot41JAR = "C:\\Karthik\\Simulation\\JAR\\41.jar";
-	static String bot42JAR = "C:\\Karthik\\Simulation\\JAR\\42.jar";
-	static String bot43JAR = "C:\\Karthik\\Simulation\\JAR\\43.jar";
-	static String bot44JAR = "C:\\Karthik\\Simulation\\JAR\\44.jar";
-	static String bot45JAR = "C:\\Karthik\\Simulation\\JAR\\45.jar";
-	static String bot46JAR = "C:\\Karthik\\Simulation\\JAR\\46.jar";
-	static String bot47JAR = "C:\\Karthik\\Simulation\\JAR\\47.jar";
-	static String bot48JAR = "C:\\Karthik\\Simulation\\JAR\\48.jar";
-	static String bot49JAR = "C:\\Karthik\\Simulation\\JAR\\49.jar";
-	static String bot50JAR = "C:\\Karthik\\Simulation\\JAR\\50.jar";
-	static String bot51JAR = "C:\\Karthik\\Simulation\\JAR\\51.jar";
-	static String bot52JAR = "C:\\Karthik\\Simulation\\JAR\\52.jar";
-	static String bot53JAR = "C:\\Karthik\\Simulation\\JAR\\53.jar";
-	static String bot54JAR = "C:\\Karthik\\Simulation\\JAR\\54.jar";
-	static String bot55JAR = "C:\\Karthik\\Simulation\\JAR\\55.jar";
-	static String bot56JAR = "C:\\Karthik\\Simulation\\JAR\\56.jar";
-	static String bot57JAR = "C:\\Karthik\\Simulation\\JAR\\57.jar";
-	static String bot58JAR = "C:\\Karthik\\Simulation\\JAR\\58.jar";
-	static String bot59JAR = "C:\\Karthik\\Simulation\\JAR\\59.jar";
-	static String bot60JAR = "C:\\Karthik\\Simulation\\JAR\\60.jar";
+	static String bot1JAR = "C:\\JARS\\1.jar";
+	static String bot2JAR = "C:\\JARS\\2.jar";
+//	static String bot3JAR = "C:\\Karthik\\Simulation\\JAR\\3.jar";
+//	static String bot4JAR = "C:\\Karthik\\Simulation\\JAR\\4.jar";
+//	static String bot5JAR = "C:\\Karthik\\Simulation\\JAR\\5.jar";
+//	static String bot6JAR = "C:\\Karthik\\Simulation\\JAR\\6.jar";
+//	static String bot7JAR = "C:\\Karthik\\Simulation\\JAR\\7.jar";
+//	static String bot8JAR = "C:\\Karthik\\Simulation\\JAR\\8.jar";
+//	static String bot9JAR = "C:\\Karthik\\Simulation\\JAR\\9.jar";
+//	static String bot10JAR = "C:\\Karthik\\Simulation\\JAR\\10.jar";
+//	static String bot11JAR = "C:\\Karthik\\Simulation\\JAR\\11.jar";
+//	static String bot12JAR = "C:\\Karthik\\Simulation\\JAR\\12.jar";
+//	static String bot13JAR = "C:\\Karthik\\Simulation\\JAR\\13.jar";
+//	static String bot14JAR = "C:\\Karthik\\Simulation\\JAR\\14.jar";
+//	static String bot15JAR = "C:\\Karthik\\Simulation\\JAR\\15.jar";
+//	static String bot16JAR = "C:\\Karthik\\Simulation\\JAR\\16.jar";
+//	static String bot17JAR = "C:\\Karthik\\Simulation\\JAR\\17.jar";
+//	static String bot18JAR = "C:\\Karthik\\Simulation\\JAR\\18.jar";
+//	static String bot19JAR = "C:\\Karthik\\Simulation\\JAR\\19.jar";
+//	static String bot20JAR = "C:\\Karthik\\Simulation\\JAR\\20.jar";
+//	static String bot21JAR = "C:\\Karthik\\Simulation\\JAR\\21.jar";
+//	static String bot22JAR = "C:\\Karthik\\Simulation\\JAR\\22.jar";
+//	static String bot23JAR = "C:\\Karthik\\Simulation\\JAR\\23.jar";
+//	static String bot24JAR = "C:\\Karthik\\Simulation\\JAR\\24.jar";
+//	static String bot25JAR = "C:\\Karthik\\Simulation\\JAR\\25.jar";
+//	static String bot26JAR = "C:\\Karthik\\Simulation\\JAR\\26.jar";
+//	static String bot27JAR = "C:\\Karthik\\Simulation\\JAR\\27.jar";
+//	static String bot28JAR = "C:\\Karthik\\Simulation\\JAR\\28.jar";
+//	static String bot29JAR = "C:\\Karthik\\Simulation\\JAR\\29.jar";
+//	static String bot30JAR = "C:\\Karthik\\Simulation\\JAR\\30.jar";
+//	static String bot31JAR = "C:\\Karthik\\Simulation\\JAR\\31.jar";
+//	static String bot32JAR = "C:\\Karthik\\Simulation\\JAR\\32.jar";
+//	static String bot33JAR = "C:\\Karthik\\Simulation\\JAR\\33.jar";
+//	static String bot34JAR = "C:\\Karthik\\Simulation\\JAR\\34.jar";
+//	static String bot35JAR = "C:\\Karthik\\Simulation\\JAR\\35.jar";
+//	static String bot36JAR = "C:\\Karthik\\Simulation\\JAR\\36.jar";
+//	static String bot37JAR = "C:\\Karthik\\Simulation\\JAR\\37.jar";
+//	static String bot38JAR = "C:\\Karthik\\Simulation\\JAR\\38.jar";
+//	static String bot39JAR = "C:\\Karthik\\Simulation\\JAR\\39.jar";
+//	static String bot40JAR = "C:\\Karthik\\Simulation\\JAR\\40.jar";
+//	static String bot41JAR = "C:\\Karthik\\Simulation\\JAR\\41.jar";
+//	static String bot42JAR = "C:\\Karthik\\Simulation\\JAR\\42.jar";
+//	static String bot43JAR = "C:\\Karthik\\Simulation\\JAR\\43.jar";
+//	static String bot44JAR = "C:\\Karthik\\Simulation\\JAR\\44.jar";
+//	static String bot45JAR = "C:\\Karthik\\Simulation\\JAR\\45.jar";
+//	static String bot46JAR = "C:\\Karthik\\Simulation\\JAR\\46.jar";
+//	static String bot47JAR = "C:\\Karthik\\Simulation\\JAR\\47.jar";
+//	static String bot48JAR = "C:\\Karthik\\Simulation\\JAR\\48.jar";
+//	static String bot49JAR = "C:\\Karthik\\Simulation\\JAR\\49.jar";
+//	static String bot50JAR = "C:\\Karthik\\Simulation\\JAR\\50.jar";
+//	static String bot51JAR = "C:\\Karthik\\Simulation\\JAR\\51.jar";
+//	static String bot52JAR = "C:\\Karthik\\Simulation\\JAR\\52.jar";
+//	static String bot53JAR = "C:\\Karthik\\Simulation\\JAR\\53.jar";
+//	static String bot54JAR = "C:\\Karthik\\Simulation\\JAR\\54.jar";
+//	static String bot55JAR = "C:\\Karthik\\Simulation\\JAR\\55.jar";
+//	static String bot56JAR = "C:\\Karthik\\Simulation\\JAR\\56.jar";
+//	static String bot57JAR = "C:\\Karthik\\Simulation\\JAR\\57.jar";
+//	static String bot58JAR = "C:\\Karthik\\Simulation\\JAR\\58.jar";
+//	static String bot59JAR = "C:\\Karthik\\Simulation\\JAR\\59.jar";
+//	static String bot60JAR = "C:\\Karthik\\Simulation\\JAR\\60.jar";
 
 
 
 	static String[] gameMatch = {
-		bot1JAR+";"+bot2JAR+";"+bot3JAR,
-		bot4JAR+";"+bot5JAR+";"+bot6JAR,
-		bot7JAR+";"+bot8JAR+";"+bot9JAR,
-		bot10JAR+";"+bot11JAR+";"+bot12JAR,
-		bot13JAR+";"+bot14JAR+";"+bot15JAR,
-		bot16JAR+";"+bot17JAR+";"+bot18JAR,
-		bot19JAR+";"+bot20JAR+";"+bot21JAR,
-		bot22JAR+";"+bot23JAR+";"+bot24JAR,
-		bot25JAR+";"+bot26JAR+";"+bot27JAR,
-		bot28JAR+";"+bot29JAR+";"+bot30JAR,
-		bot31JAR+";"+bot32JAR+";"+bot33JAR,
-		bot34JAR+";"+bot35JAR+";"+bot36JAR,
-		bot37JAR+";"+bot38JAR+";"+bot39JAR,
-		bot40JAR+";"+bot41JAR+";"+bot42JAR,
-		bot43JAR+";"+bot44JAR+";"+bot45JAR,
-		bot46JAR+";"+bot47JAR+";"+bot48JAR,
-		bot49JAR+";"+bot50JAR+";"+bot51JAR,
-		bot52JAR+";"+bot53JAR+";"+bot54JAR,
-		bot55JAR+";"+bot56JAR+";"+bot57JAR,
-		bot58JAR+";"+bot59JAR+";"+bot60JAR,
+		bot1JAR,bot2JAR
+//		bot1JAR+";"+bot2JAR+";"+bot3JAR,
+//		bot4JAR+";"+bot5JAR+";"+bot6JAR,
+//		bot7JAR+";"+bot8JAR+";"+bot9JAR,
+//		bot10JAR+";"+bot11JAR+";"+bot12JAR,
+//		bot13JAR+";"+bot14JAR+";"+bot15JAR,
+//		bot16JAR+";"+bot17JAR+";"+bot18JAR,
+//		bot19JAR+";"+bot20JAR+";"+bot21JAR,
+//		bot22JAR+";"+bot23JAR+";"+bot24JAR,
+//		bot25JAR+";"+bot26JAR+";"+bot27JAR,
+//		bot28JAR+";"+bot29JAR+";"+bot30JAR,
+//		bot31JAR+";"+bot32JAR+";"+bot33JAR,
+//		bot34JAR+";"+bot35JAR+";"+bot36JAR,
+//		bot37JAR+";"+bot38JAR+";"+bot39JAR,
+//		bot40JAR+";"+bot41JAR+";"+bot42JAR,
+//		bot43JAR+";"+bot44JAR+";"+bot45JAR,
+//		bot46JAR+";"+bot47JAR+";"+bot48JAR,
+//		bot49JAR+";"+bot50JAR+";"+bot51JAR,
+//		bot52JAR+";"+bot53JAR+";"+bot54JAR,
+//		bot55JAR+";"+bot56JAR+";"+bot57JAR,
+//		bot58JAR+";"+bot59JAR+";"+bot60JAR,
 	};
 
 	public enum MatchType {
@@ -1192,10 +1193,10 @@ public class UT2004MatchConsole {
 	public static String[] getArgs_CTF_3VS_3() {
 		return new String[] {
 				"-y", // MATCH TYPE
-				"CTF", // CAPTURE THE FALG
+				"DM", // CAPTURE THE FALG
 				// GENERIC CONFIG
 				"-u",
-				"C:\\UTGame",
+				"C:\\GOG Games\\UT2004",
 				"-h", // human-like-log
 				"-r",
 				"./Output",
@@ -1207,13 +1208,20 @@ public class UT2004MatchConsole {
 				"-a",
 				"JAR",
 				"-b",
-				"CTFBot1;CTFBot2;CTFBot3;CTFBot4;CTFBot5;CTFBot6",
+//				"CTFBot1;CTFBot2;CTFBot3;CTFBot4;CTFBot5;CTFBot6",
+				"CTFBot1;CTFBot2",
 				"-l",
-				"5;5;5;5;5;5",
+				
+				//Skill level
+				"5;5",
 				"-k",
-				"HumanFemaleA.NightFemaleA;HumanFemaleA.NightFemaleA;HumanFemaleA.NightFemaleA;HumanFemaleA.NightFemaleA;HumanFemaleA.NightFemaleA;HumanFemaleA.NightFemaleA",
+//				"HumanFemaleA.NightFemaleA;HumanFemaleA.NightFemaleA;HumanFemaleA.NightFemaleA;HumanFemaleA.NightFemaleA;HumanFemaleA.NightFemaleA;HumanFemaleA.NightFemaleA",
+				"HumanFemaleA.NightFemaleA;HumanFemaleA.NightFemaleA",
 				"-i",
-				"0;0;0;1;1;1",
+				
+				//Team numbers
+				"0;1",
+				
 				// NATIVE BOTS CONFIG
 				"-c", // NATIVE BOT COUNT
 				"0",
@@ -1230,7 +1238,7 @@ public class UT2004MatchConsole {
 				"1",
 				// CAPTURE THE FLAG SPECIFIC CONFIG
 				"-m",
-				"CTF-1on1-Joust",
+				"DM-TrainingDay",
 				"-f",
 				"15", // SCORE LIMIT
 				"-t",
@@ -2904,53 +2912,71 @@ public class UT2004MatchConsole {
 		createValuesInDB(botGeneArray);
 		String botNameString = "CTFBot";
 		int localBotNumber=1;
-		for(int i=0;i<numberOfGenerations;i++) {
-			localBotNumber=1;
-			
-			//TODO : Kesava
-			//This method sets the paramters for the CTF game mode and sets values like bot names and other details
-			//CHeck this method once
-			args = getArgs_CTF_3VS_3();
-			
-			//TODO: this is global generation number, we need to change this to meet our requirements
-			args[6] +="//Generation_" + globalGenerationNumber;
-			
-			String generationPATH = args[8];
-			//Need to run 10 Matches per Generation
-			for(int j=0;j<20;j++)
-			{
-				args[8] = generationPATH + (j+1);
-				args[12] = gameMatch[j] + baseLineBotTeamPATH;
-				
-				initJSAP();
-
-				header();
-
-				readConfig(args);
-
-				sanityChecks();
-
-
-				switch (matchType) {
-				case DM:
-					executeDeathMatch();
-					break;
-				case TDM:
-					executeTeamDeathMatch();
-					break;
-				case CTF:
-					executeCaptureTheFlag();
-					break;
-				case DD:
-					executeDoubleDomination();
-					break;
-				default:
-					fail("Unsupported match type specified " + matchTypeName + " recognized as " + matchType.shortName + "[" + matchType.name + "].");
-				}
-			}
-			CalculateFitness(botGeneArray);
-			globalGenerationNumber++;
-		}
+		
+		args = getArgs_CTF_3VS_3();
+		//TODO: this is global generation number, we need to change this to meet our requirements
+		args[6] +="//Generation_" + globalGenerationNumber;
+		String generationPATH = args[8];
+		args[8] = generationPATH + (1);
+		args[12] = gameMatch[0] + ";" + gameMatch[1];
+		initJSAP();
+		
+		header();
+	
+		readConfig(args);
+	
+		sanityChecks();
+		executeCaptureTheFlag();
+		
+		// TODO : kesava commented below
+		
+//		for(int i=0;i<numberOfGenerations;i++) {
+//			localBotNumber=1;
+//			
+//			//TODO : Kesava
+//			//This method sets the paramters for the CTF game mode and sets values like bot names and other details
+//			//CHeck this method once
+//			args = getArgs_CTF_3VS_3();
+//			
+//			//TODO: this is global generation number, we need to change this to meet our requirements
+//			args[6] +="//Generation_" + globalGenerationNumber;
+//			
+//			String generationPATH = args[8];
+//			//Need to run 10 Matches per Generation
+//			for(int j=0;j<20;j++)
+//			{
+//				args[8] = generationPATH + (j+1);
+//				args[12] = gameMatch[j] + baseLineBotTeamPATH;
+//				
+//				initJSAP();
+//
+//				header();
+//
+//				readConfig(args);
+//
+//				sanityChecks();
+//
+//
+//				switch (matchType) {
+//				case DM:
+//					executeDeathMatch();
+//					break;
+//				case TDM:
+//					executeTeamDeathMatch();
+//					break;
+//				case CTF:
+//					executeCaptureTheFlag();
+//					break;
+//				case DD:
+//					executeDoubleDomination();
+//					break;
+//				default:
+//					fail("Unsupported match type specified " + matchTypeName + " recognized as " + matchType.shortName + "[" + matchType.name + "].");
+//				}
+//			}
+//			CalculateFitness(botGeneArray);
+//			globalGenerationNumber++;
+//		}
 	}
 }
 

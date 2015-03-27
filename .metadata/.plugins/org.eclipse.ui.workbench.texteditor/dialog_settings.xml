@@ -2,27 +2,27 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="257" key="DIALOG_WIDTH"/>
-		<item value="656" key="DIALOG_Y_ORIGIN"/>
+		<item value="545" key="DIALOG_Y_ORIGIN"/>
+		<item value="1155" key="DIALOG_X_ORIGIN"/>
 		<item value="380" key="DIALOG_HEIGHT"/>
-		<item value="1495" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
+		<item value="true" key="casesensitive"/>
 		<item value="false" key="isRegEx"/>
-		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
-		<item value="false" key="wholeword"/>
-		<item value="stateEngage" key="selection"/>
+		<item value="true" key="wholeword"/>
+		<item value="" key="selection"/>
 		<list key="findhistory">
-			<item value="stateEngage"/>
-			<item value="kesava"/>
-			<item value="stateRunAroundItems"/>
-			<item value="Decision is: ITEMS"/>
-			<item value="bot"/>
-			<item value="prepareBot"/>
-			<item value="enemyFlag"/>
-			<item value="flagSighted"/>
+			<item value="PathExecutorState"/>
+			<item value="autoFixer"/>
+			<item value="tabooNavPoints"/>
+			<item value="item"/>
+			<item value="state"/>
+			<item value="getNearestVisibleItem"/>
+			<item value="getNearestPossiblySpawnedItemOfType"/>
+			<item value="override"/>
 		</list>
 		<list key="replacehistory">
 		</list>

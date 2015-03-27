@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="src" path="src/test/java" output="target/test-classes" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="var" path="M2_REPO/junit/junit/3.8.1/junit-3.8.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/cz/cuni/amis/pogamut/pogamut-ut2004/3.5.3/pogamut-ut2004-3.5.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/cz/cuni/amis/pogamut/pogamut-unreal/3.5.3/pogamut-unreal-3.5.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/cz/cuni/amis/pogamut/pogamut-base/3.5.3/pogamut-base-3.5.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/mysql/mysql-connector-java/5.1.34/mysql-connector-java-5.1.34.jar"/>
+</classpath>

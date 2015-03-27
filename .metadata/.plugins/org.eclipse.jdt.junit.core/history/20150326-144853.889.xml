@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="UT2004TournamentTest01_UT2004CaptureTheFlag" project="UT2004-tournament_NEW" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="cz.cuni.amis.pogamut.ut2004.tournament.capturetheflag.UT2004TournamentTest01_UT2004CaptureTheFlag" time="17.548">
+    <testcase name="test01" classname="cz.cuni.amis.pogamut.ut2004.tournament.capturetheflag.UT2004TournamentTest01_UT2004CaptureTheFlag" time="17.548">
+      <error>PogamutException[UT2004CaptureTheFlag[id=test-ctf-match, custom bots=1, native bots=3, humans=0]: Failed to perform the match! (caused by: UT2004CaptureTheFlag[id=test-ctf-match, custom bots=1, native bots=3, humans=0]: One of custom bots died out from the start, failure!)]&#13;
+	at cz.cuni.amis.pogamut.ut2004.tournament.capturetheflag.UT2004CaptureTheFlag.waitMatchFinish(UT2004CaptureTheFlag.java:284)&#13;
+	at cz.cuni.amis.pogamut.ut2004.tournament.capturetheflag.UT2004CaptureTheFlag.execute(UT2004CaptureTheFlag.java:594)&#13;
+	at cz.cuni.amis.pogamut.ut2004.tournament.capturetheflag.UT2004TournamentTest01_UT2004CaptureTheFlag.test01(UT2004TournamentTest01_UT2004CaptureTheFlag.java:97)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)&#13;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+Caused by: PogamutException[UT2004CaptureTheFlag[id=test-ctf-match, custom bots=1, native bots=3, humans=0]: One of custom bots died out from the start, failure!]&#13;
+	at cz.cuni.amis.pogamut.ut2004.tournament.capturetheflag.UT2004CaptureTheFlag.waitMatchFinish(UT2004CaptureTheFlag.java:137)&#13;
+	... 27 more&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

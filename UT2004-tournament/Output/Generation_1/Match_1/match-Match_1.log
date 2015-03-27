@@ -1,0 +1,1192 @@
+(Match_1)  [INFO]    14:16:55.273 <Match_1>                  UT2004CaptureTheFlag[id=Match_1, custom bots=2, native bots=0, humans=0] file output setup
+
+(Match_1)  [INFO]    14:16:55.274 <Match_1>                  Match_1: Match configuration validated - OK.
+
+(Match_1)  [INFO]    14:16:55.307 <Match_1>                  Match_1: UT2004.ini output into C:\GOG Games\UT2004\System\UT2004.ini.
+
+(Match_1)  [INFO]    14:16:55.315 <Match_1>                  Match_1: GameBots2004.ini output into C:\GOG Games\UT2004\System\GameBots2004.ini.
+
+(Match_1)  [INFO]    14:16:57.389 <Match_1>                  Match_1: UCC started with UCCWrapperConf[unrealHome=C:\GOG Games\UT2004, gameBotsPack=GameBots2004, gameType=BotDeathMatch, mutators=, options=, startOnUnusedPorts=true].
+
+(Match_1)  [INFO]    14:16:57.389 <Match_1>                  Match_1: GB2004 host                = localhost
+
+(Match_1)  [INFO]    14:16:57.389 <Match_1>                  Match_1: GB2004 bot port            = 16007
+
+(Match_1)  [INFO]    14:16:57.389 <Match_1>                  Match_1: GB2004 control server port = 16005
+
+(Match_1)  [INFO]    14:16:57.389 <Match_1>                  Match_1: GB2004 observer port       = 16006
+
+(Match_1)              [INFO]    14:16:58.119 <Match_1>                  Match_1: UT2004Server started.
+
+(Match_1)              [WARNING] 14:16:58.623 <Match_1>                  Starting bot: UT2004BotConfig[botId=CTFBot1, team=255, jar=C:\JARS\1.jar]
+
+(Match_1)              [INFO]    14:16:58.623 <Match_1>                  Executing command: java.exe "-Dpogamut.ut2004.bot.host=localhost" "-Dpogamut.ut2004.bot.port=16007" "-Dpogamut.ut2004.bot.init.skill=5" "-Dpogamut.ut2004.bot.init.skin=HumanFemaleA.NightFemaleA" "-Dpogamut.ut2004.bot.init.override=true" -jar "C:\JARS\1.jar"
+
+(Match_1)              [INFO]    14:16:59.771 <Match_1>                  CTFBot1-StdOut (Platform) [INFO]    14:16:59.770 <PropertiesManager> Instantiated
+
+(Match_1)              [INFO]    14:16:59.775 <Match_1>                  CTFBot1-StdErr Mar 26, 2015 2:16:59 PM cz.cuni.amis.utils.configuration.PropertiesManager <init>
+
+(Match_1)              [INFO]    14:16:59.776 <Match_1>                  CTFBot1-StdErr INFO: Instantiated
+
+(Match_1)              [INFO]    14:16:59.816 <Match_1>                  CTFBot1-StdOut (Platform) [WARNING] 14:16:59.816 <CustomPropertiesProvider> Custom property file not found in C:\JARS\PogamutPlatformCustom.properties.
+
+(Match_1)              [INFO]    14:17:00.010 <Match_1>                  CTFBot1-StdOut (Platform) [INFO]    14:17:00.010 <PropertiesManager>        Property providers order:
+
+(Match_1)              [INFO]    14:17:00.011 <Match_1>                  CTFBot1-StdErr Mar 26, 2015 2:17:00 PM cz.cuni.amis.utils.configuration.PropertiesManager logProvidersOrder
+
+(Match_1)              [INFO]    14:17:00.011 <Match_1>                  CTFBot1-StdOut (Platform) [INFO]    14:17:00.011 <PropertiesManager>        [10000] 	 Environment variable provider
+
+(Match_1)              [INFO]    14:17:00.011 <Match_1>                  CTFBot1-StdErr INFO: Property providers order:
+
+(Match_1)              [INFO]    14:17:00.011 <Match_1>                  CTFBot1-StdErr Mar 26, 2015 2:17:00 PM cz.cuni.amis.utils.configuration.PropertiesManager logProvidersOrder
+
+(Match_1)              [INFO]    14:17:00.011 <Match_1>                  CTFBot1-StdErr INFO: [10000] 	 Environment variable provider
+
+(Match_1)              [INFO]    14:17:00.011 <Match_1>                  CTFBot1-StdOut (Platform) [INFO]    14:17:00.011 <PropertiesManager>        [9000] 	 JVM -D option provider
+
+(Match_1)              [INFO]    14:17:00.012 <Match_1>                  CTFBot1-StdErr Mar 26, 2015 2:17:00 PM cz.cuni.amis.utils.configuration.PropertiesManager logProvidersOrder
+
+(Match_1)              [INFO]    14:17:00.012 <Match_1>                  CTFBot1-StdErr INFO: [9000] 	 JVM -D option provider
+
+(Match_1)              [INFO]    14:17:00.012 <Match_1>                  CTFBot1-StdOut (Platform) [INFO]    14:17:00.012 <PropertiesManager>        [1000] 	 CustomPropertiesProvider[source='C:\JARS\PogamutPlatformCustom.properties']
+
+(Match_1)              [INFO]    14:17:00.012 <Match_1>                  CTFBot1-StdErr Mar 26, 2015 2:17:00 PM cz.cuni.amis.utils.configuration.PropertiesManager logProvidersOrder
+
+(Match_1)              [INFO]    14:17:00.012 <Match_1>                  CTFBot1-StdErr INFO: [1000] 	 CustomPropertiesProvider[source='C:\JARS\PogamutPlatformCustom.properties']
+
+(Match_1)              [INFO]    14:17:00.013 <Match_1>                  CTFBot1-StdOut (Platform) [INFO]    14:17:00.012 <PropertiesManager>        [500] 	 Properties from /cz/cuni/amis/pogamut/ut2004/PogamutUT2004.properties
+
+(Match_1)              [INFO]    14:17:00.013 <Match_1>                  CTFBot1-StdErr Mar 26, 2015 2:17:00 PM cz.cuni.amis.utils.configuration.PropertiesManager logProvidersOrder
+
+(Match_1)              [INFO]    14:17:00.013 <Match_1>                  CTFBot1-StdErr INFO: [500] 	 Properties from /cz/cuni/amis/pogamut/ut2004/PogamutUT2004.properties
+
+(Match_1)              [INFO]    14:17:00.013 <Match_1>                  CTFBot1-StdOut (Platform) [INFO]    14:17:00.013 <PropertiesManager>        [1] 	 Properties from /cz/cuni/amis/pogamut/PogamutPlatform.properties
+
+(Match_1)              [INFO]    14:17:00.014 <Match_1>                  CTFBot1-StdErr Mar 26, 2015 2:17:00 PM cz.cuni.amis.utils.configuration.PropertiesManager logProvidersOrder
+
+(Match_1)              [INFO]    14:17:00.014 <Match_1>                  CTFBot1-StdErr INFO: [1] 	 Properties from /cz/cuni/amis/pogamut/PogamutPlatform.properties
+
+(Match_1)              [INFO]    14:17:00.791 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [ALL]     14:17:00.791 <User>                     Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.792 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.791 <WorldMessageTranslator>   Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.792 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.791 <Game28>                   Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.792 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.791 <Items17>                  Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.792 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.792 <Mediator>                 Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.792 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.792 <AgentConfig5>             Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.792 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.792 <Weaponry16>               Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.792 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.792 <ImprovedShooting22>       Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.792 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.792 <Visibility14>             Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.792 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.792 <Action19>                 Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.792 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.792 <Agent>                    Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.792 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.792 <UT2004DistanceStuckDetector> Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.792 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.792 <Yylex>                       Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.792 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.792 <Commands>                    Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.793 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.792 <UT2004Navigation>            Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.793 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.792 <SimpleRayCasting25>          Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.793 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.792 <NavigationGraphBuilder12>    Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.793 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.792 <UT2004TimeStuckDetector>     Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.793 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.792 <UT2004GetBackToNavGraph>     Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.793 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.792 <Parser>                      Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.793 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.792 <Game1>                       Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.793 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.792 <SyncUT2004BotLogic0>         Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.793 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.792 <RaycastingUT20047>           Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.793 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.792 <Connection>                  Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.793 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.793 <RaycastingUT20049>           Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.793 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.793 <UT2004RunStraight>           Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.793 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.793 <ConfigureCommands24>         Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.793 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.793 <CTF15>                       Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.793 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.793 <Listeners>                   Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.794 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.793 <AgentInfo29>                 Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.794 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.793 <UT2004PathAutoFixer>         Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.794 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.793 <AgentStats11>                Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.794 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.793 <RaycastingBSP8>              Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.794 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.793 <Raycasting6>                 Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.794 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.793 <Act>                         Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.794 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.793 <Players3>                    Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.794 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.793 <AdvancedShooting21>          Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.794 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.793 <WorldView>                   Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.794 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.793 <ItemDescriptors4>            Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.794 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.793 <AdvancedLocomotion20>        Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.794 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.793 <NavPoints2>                  Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.794 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.793 <Senses18>                    Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.794 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.794 <Communication23>             Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.795 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.794 <BotFSM>                      Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.795 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.794 <AgentInfo13>                 Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.795 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.794 <AdrenalineCombo26>           Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.795 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.794 <ComponentBus>                Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.795 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.794 <RaycastingBSP10>             Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.795 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.794 <UT2004PositionStuckDetector> Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.795 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [INFO]    14:17:00.794 <FloydWarshallMap27>          Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.795 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [WARNING] 14:17:00.794 <Agent>                       Starting agent CTFBot1-3@MotionCap-PC/d0acb1aa-54e5-936f-7d9f-667ddaab3769
+
+(Match_1)              [INFO]    14:17:00.796 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [WARNING] 14:17:00.796 <Connection>                  Connecting to SocketConnectionAddress[localhost:16007].
+
+(Match_1)              [INFO]    14:17:00.805 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [WARNING] 14:17:00.805 <AgentJMXComponents>          Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:00.811 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [WARNING] 14:17:00.811 <User>                        Log level set to ALL.
+
+(Match_1)              [INFO]    14:17:00.814 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [WARNING] 14:17:00.813 <SyncUT2004BotLogic0>         Thread 0: Thread started.
+
+(Match_1)              [INFO]    14:17:01.006 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [WARNING] 14:17:01.005 <Visibility14>                Could not load visibility information for DM-TrainingDay. File from local dir C:\JARS\.\VisibilityMatrix-DM-TrainingDay-All.bin not found and property pogamut.ut2004.visibility.dir not set.
+
+(Match_1)              [INFO]    14:17:01.006 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [WARNING] 14:17:01.005 <Visibility14>                Visibility matrix was not loaded, module could not be initialized.
+
+(Match_1)              [INFO]    14:17:01.034 <Match_1>                  CTFBot1-StdOut (Platform) [WARNING] 14:17:01.034 <DefaultPogamutPlatform>      Creating registry at 16011 ...
+
+(Match_1)              [INFO]    14:17:01.043 <Match_1>                  CTFBot1-StdOut (Platform) [WARNING] 14:17:01.043 <DefaultPogamutPlatform>      Starting MBean server.
+
+(Match_1)              [INFO]    14:17:01.486 <Match_1>                  Match_1: Started custom Bot[botId=CTFBot1, unrealId=DM-TrainingDay.ObservedRemoteBot1].
+
+(Match_1)              [WARNING] 14:17:01.486 <Match_1>                  Starting bot: UT2004BotConfig[botId=CTFBot2, team=255, jar=C:\JARS\2.jar]
+
+(Match_1)              [INFO]    14:17:01.487 <Match_1>                  Executing command: java.exe "-Dpogamut.ut2004.bot.host=localhost" "-Dpogamut.ut2004.bot.port=16007" "-Dpogamut.ut2004.bot.init.skill=5" "-Dpogamut.ut2004.bot.init.skin=HumanFemaleA.NightFemaleA" "-Dpogamut.ut2004.bot.init.override=true" -jar "C:\JARS\2.jar"
+
+(Match_1)              [INFO]    14:17:02.063 <Match_1>                  CTFBot2-StdOut (Platform) [INFO]    14:17:02.062 <PropertiesManager> Instantiated
+
+(Match_1)              [INFO]    14:17:02.068 <Match_1>                  CTFBot2-StdErr Mar 26, 2015 2:17:02 PM cz.cuni.amis.utils.configuration.PropertiesManager <init>
+
+(Match_1)              [INFO]    14:17:02.068 <Match_1>                  CTFBot2-StdErr INFO: Instantiated
+
+(Match_1)              [INFO]    14:17:02.095 <Match_1>                  CTFBot2-StdOut (Platform) [WARNING] 14:17:02.095 <CustomPropertiesProvider> Custom property file not found in C:\JARS\PogamutPlatformCustom.properties.
+
+(Match_1)              [INFO]    14:17:02.238 <Match_1>                  CTFBot2-StdOut (Platform) [INFO]    14:17:02.238 <PropertiesManager>        Property providers order:
+
+(Match_1)              [INFO]    14:17:02.239 <Match_1>                  CTFBot2-StdErr Mar 26, 2015 2:17:02 PM cz.cuni.amis.utils.configuration.PropertiesManager logProvidersOrder
+
+(Match_1)              [INFO]    14:17:02.239 <Match_1>                  CTFBot2-StdErr INFO: Property providers order:
+
+(Match_1)              [INFO]    14:17:02.239 <Match_1>                  CTFBot2-StdOut (Platform) [INFO]    14:17:02.238 <PropertiesManager>        [10000] 	 Environment variable provider
+
+(Match_1)              [INFO]    14:17:02.239 <Match_1>                  CTFBot2-StdErr Mar 26, 2015 2:17:02 PM cz.cuni.amis.utils.configuration.PropertiesManager logProvidersOrder
+
+(Match_1)              [INFO]    14:17:02.239 <Match_1>                  CTFBot2-StdOut (Platform) [INFO]    14:17:02.239 <PropertiesManager>        [9000] 	 JVM -D option provider
+
+(Match_1)              [INFO]    14:17:02.239 <Match_1>                  CTFBot2-StdErr INFO: [10000] 	 Environment variable provider
+
+(Match_1)              [INFO]    14:17:02.240 <Match_1>                  CTFBot2-StdErr Mar 26, 2015 2:17:02 PM cz.cuni.amis.utils.configuration.PropertiesManager logProvidersOrder
+
+(Match_1)              [INFO]    14:17:02.240 <Match_1>                  CTFBot2-StdErr INFO: [9000] 	 JVM -D option provider
+
+(Match_1)              [INFO]    14:17:02.240 <Match_1>                  CTFBot2-StdOut (Platform) [INFO]    14:17:02.239 <PropertiesManager>        [1000] 	 CustomPropertiesProvider[source='C:\JARS\PogamutPlatformCustom.properties']
+
+(Match_1)              [INFO]    14:17:02.240 <Match_1>                  CTFBot2-StdErr Mar 26, 2015 2:17:02 PM cz.cuni.amis.utils.configuration.PropertiesManager logProvidersOrder
+
+(Match_1)              [INFO]    14:17:02.240 <Match_1>                  CTFBot2-StdErr INFO: [1000] 	 CustomPropertiesProvider[source='C:\JARS\PogamutPlatformCustom.properties']
+
+(Match_1)              [INFO]    14:17:02.240 <Match_1>                  CTFBot2-StdOut (Platform) [INFO]    14:17:02.240 <PropertiesManager>        [500] 	 Properties from /cz/cuni/amis/pogamut/ut2004/PogamutUT2004.properties
+
+(Match_1)              [INFO]    14:17:02.241 <Match_1>                  CTFBot2-StdErr Mar 26, 2015 2:17:02 PM cz.cuni.amis.utils.configuration.PropertiesManager logProvidersOrder
+
+(Match_1)              [INFO]    14:17:02.241 <Match_1>                  CTFBot2-StdErr INFO: [500] 	 Properties from /cz/cuni/amis/pogamut/ut2004/PogamutUT2004.properties
+
+(Match_1)              [INFO]    14:17:02.241 <Match_1>                  CTFBot2-StdOut (Platform) [INFO]    14:17:02.241 <PropertiesManager>        [1] 	 Properties from /cz/cuni/amis/pogamut/PogamutPlatform.properties
+
+(Match_1)              [INFO]    14:17:02.241 <Match_1>                  CTFBot2-StdErr Mar 26, 2015 2:17:02 PM cz.cuni.amis.utils.configuration.PropertiesManager logProvidersOrder
+
+(Match_1)              [INFO]    14:17:02.241 <Match_1>                  CTFBot2-StdErr INFO: [1] 	 Properties from /cz/cuni/amis/pogamut/PogamutPlatform.properties
+
+(Match_1)              [INFO]    14:17:03.050 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [ALL]     14:17:03.050 <User>                     Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.050 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.050 <WorldMessageTranslator>   Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.050 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.050 <Game28>                   Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.050 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.050 <Items17>                  Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.051 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.050 <Mediator>                 Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.051 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.050 <AgentConfig5>             Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.051 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.050 <Weaponry16>               Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.051 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.050 <ImprovedShooting22>       Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.051 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.050 <Visibility14>             Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.051 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.050 <Action19>                 Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.051 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.050 <Agent>                    Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.051 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.051 <UT2004DistanceStuckDetector> Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.051 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.051 <Yylex>                       Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.051 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.051 <Commands>                    Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.051 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.051 <UT2004Navigation>            Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.051 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.051 <SimpleRayCasting25>          Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.051 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.051 <NavigationGraphBuilder12>    Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.051 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.051 <UT2004TimeStuckDetector>     Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.051 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.051 <UT2004GetBackToNavGraph>     Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.052 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.051 <Parser>                      Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.052 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.051 <Game1>                       Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.052 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.051 <SyncUT2004BotLogic0>         Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.052 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.051 <RaycastingUT20047>           Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.052 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.051 <Connection>                  Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.052 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.051 <RaycastingUT20049>           Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.052 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.051 <UT2004RunStraight>           Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.052 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.051 <ConfigureCommands24>         Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.052 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.051 <CTF15>                       Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.052 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.051 <Listeners>                   Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.052 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.051 <AgentInfo29>                 Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.052 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.051 <UT2004PathAutoFixer>         Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.052 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.052 <AgentStats11>                Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.052 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.052 <RaycastingBSP8>              Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.052 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.052 <Raycasting6>                 Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.053 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.052 <Act>                         Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.053 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.052 <Players3>                    Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.053 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.052 <AdvancedShooting21>          Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.053 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.052 <WorldView>                   Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.053 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.052 <ItemDescriptors4>            Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.053 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.052 <AdvancedLocomotion20>        Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.053 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.052 <NavPoints2>                  Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.053 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.052 <Senses18>                    Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.053 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.052 <Communication23>             Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.053 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.052 <BotFSM>                      Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.053 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.052 <AgentInfo13>                 Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.053 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.052 <AdrenalineCombo26>           Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.053 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.052 <ComponentBus>                Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.053 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.052 <RaycastingBSP10>             Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.053 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.052 <UT2004PositionStuckDetector> Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.054 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [INFO]    14:17:03.053 <FloydWarshallMap27>          Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.054 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:03.053 <Agent>                       Starting agent CTFBot1-3@MotionCap-PC/55a286d4-6f4d-14d8-c955-00732346a7af
+
+(Match_1)              [INFO]    14:17:03.055 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:03.055 <Connection>                  Connecting to SocketConnectionAddress[localhost:16007].
+
+(Match_1)              [INFO]    14:17:03.063 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:03.063 <AgentJMXComponents>          Log level set to WARNING.
+
+(Match_1)              [INFO]    14:17:03.071 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:03.071 <SyncUT2004BotLogic0>         Thread 0: Thread started.
+
+(Match_1)              [INFO]    14:17:03.087 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:03.087 <User>                        Log level set to ALL.
+
+(Match_1)              [INFO]    14:17:03.284 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:03.284 <Visibility14>                Could not load visibility information for DM-TrainingDay. File from local dir C:\JARS\.\VisibilityMatrix-DM-TrainingDay-All.bin not found and property pogamut.ut2004.visibility.dir not set.
+
+(Match_1)              [INFO]    14:17:03.284 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:03.284 <Visibility14>                Visibility matrix was not loaded, module could not be initialized.
+
+(Match_1)              [INFO]    14:17:03.313 <Match_1>                  CTFBot2-StdOut (Platform) [WARNING] 14:17:03.312 <DefaultPogamutPlatform>      Creating registry at 16017 ...
+
+(Match_1)              [INFO]    14:17:03.324 <Match_1>                  CTFBot2-StdOut (Platform) [WARNING] 14:17:03.323 <DefaultPogamutPlatform>      Starting MBean server.
+
+(Match_1)              [INFO]    14:17:03.681 <Match_1>                  Match_1: Started custom Bot[botId=CTFBot2, unrealId=DM-TrainingDay.ObservedRemoteBot2].
+
+(Match_1)              [INFO]    14:17:03.682 <Match_1>                  Match_1: All custom & native bots are up and running in correct teams..
+
+(Match_1)              [INFO]    14:17:03.682 <Match_1>                  Match_1: No humans should participate within the match.
+
+(Match_1)                [INFO]    14:17:06.013 <Match_1>                  Match_1: UT2004Analyzer started.
+
+(Match_1)                [INFO]    14:17:11.033 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:11.033 <BotFSM>                      Bot switched to DEAD STATE.
+
+(Match_1)                [INFO]    14:17:11.034 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [WARNING] 14:17:11.034 <BotFSM>                      Bot switched to DEAD STATE.
+
+(Match_1)                [INFO]    14:17:11.035 <Match_1>                  Match_1: Match restarted.
+
+(Match_1)                [INFO]    14:17:11.035 <Match_1>                  Match_1: Recording replay Match_1-replay-2015-03-26_14-16-55
+
+(Match_1)                [WARNING] 14:17:11.035 <Match_1>                  Match_1: Waiting for the match to finish...
+
+(Match_1)                [INFO]    14:17:11.195 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [SEVERE]  14:17:11.195 <Parser>                      UT2004Parser: Can't parse next message: java.net.SocketException: Connection reset (caused by: java.net.SocketException: Connection reset)
+
+(Match_1)                [INFO]    14:17:11.195 <Match_1>                  CTFBot1-StdOut  (at cz.cuni.amis.pogamut.base.communication.parser.impl.yylex.YylexParser.parse(YylexParser.java:107))
+
+(Match_1)                [INFO]    14:17:11.195 <Match_1>                  CTFBot1-StdOut caused by:  (at cz.cuni.amis.pogamut.base.communication.connection.impl.AbstractConnection$ConnectionReader.handleException(AbstractConnection.java:447))
+
+(Match_1)                [INFO]    14:17:11.195 <Match_1>                  CTFBot1-StdOut caused by:  (at java.net.SocketInputStream.read(Unknown Source))
+
+(Match_1)                [INFO]    14:17:11.195 <Match_1>                  CTFBot1-StdOut Stack trace:
+
+(Match_1)                [INFO]    14:17:11.195 <Match_1>                  CTFBot1-StdOut ParserException[UT2004Parser: Can't parse next message: java.net.SocketException: Connection reset (caused by: java.net.SocketException: Connection reset)]
+
+(Match_1)                [INFO]    14:17:11.196 <Match_1>                  CTFBot1-StdOut 	at cz.cuni.amis.pogamut.base.communication.parser.impl.yylex.YylexParser.parse(YylexParser.java:107)
+
+(Match_1)                [INFO]    14:17:11.196 <Match_1>                  CTFBot1-StdOut 	at cz.cuni.amis.pogamut.base.communication.translator.impl.WorldMessageTranslator.getEvent(WorldMessageTranslator.java:121)
+
+(Match_1)                [INFO]    14:17:11.196 <Match_1>                  CTFBot1-StdOut 	at cz.cuni.amis.pogamut.base.communication.mediator.impl.Mediator$Worker.run(Mediator.java:299)
+
+(Match_1)                [INFO]    14:17:11.196 <Match_1>                  CTFBot1-StdOut 	at java.lang.Thread.run(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.196 <Match_1>                  CTFBot1-StdOut Caused by: PogamutIOException[java.net.SocketException: Connection reset]
+
+(Match_1)                [INFO]    14:17:11.196 <Match_1>                  CTFBot1-StdOut 	at cz.cuni.amis.pogamut.base.communication.connection.impl.AbstractConnection$ConnectionReader.handleException(AbstractConnection.java:447)
+
+(Match_1)                [INFO]    14:17:11.196 <Match_1>                  CTFBot1-StdOut 	at cz.cuni.amis.pogamut.base.communication.connection.impl.AbstractConnection$ConnectionReader.read(AbstractConnection.java:420)
+
+(Match_1)                [INFO]    14:17:11.196 <Match_1>                  CTFBot1-StdOut 	at cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.Yylex.zzRefill(Yylex.java:6006)
+
+(Match_1)                [INFO]    14:17:11.196 <Match_1>                  CTFBot1-StdOut 	at cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.Yylex.yylex(Yylex.java:6250)
+
+(Match_1)                [INFO]    14:17:11.196 <Match_1>                  CTFBot1-StdOut 	at cz.cuni.amis.pogamut.base.communication.parser.impl.yylex.YylexParser.parse(YylexParser.java:97)
+
+(Match_1)                [INFO]    14:17:11.196 <Match_1>                  CTFBot1-StdOut 	... 3 more
+
+(Match_1)                [INFO]    14:17:11.196 <Match_1>                  CTFBot1-StdOut Caused by: java.net.SocketException: Connection reset
+
+(Match_1)                [INFO]    14:17:11.196 <Match_1>                  CTFBot1-StdOut 	at java.net.SocketInputStream.read(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.196 <Match_1>                  CTFBot1-StdOut 	at java.net.SocketInputStream.read(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.196 <Match_1>                  CTFBot1-StdOut 	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.201 <Match_1>                  CTFBot1-StdOut 	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.202 <Match_1>                  CTFBot1-StdOut 	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.202 <Match_1>                  CTFBot1-StdOut 	at java.io.InputStreamReader.read(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.202 <Match_1>                  CTFBot1-StdOut 	at cz.cuni.amis.pogamut.base.communication.connection.impl.AbstractConnection$ConnectionReader.read(AbstractConnection.java:402)
+
+(Match_1)                [INFO]    14:17:11.202 <Match_1>                  CTFBot1-StdOut 	... 6 more
+
+(Match_1)                [INFO]    14:17:11.202 <Match_1>                  CTFBot1-StdOut 
+
+(Match_1)                [INFO]    14:17:11.202 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [SEVERE]  14:17:11.197 <Mediator>                    Fatal error in Mediator: MediatorWorker: Producer exception.
+
+(Match_1)                [INFO]    14:17:11.202 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [SEVERE]  14:17:11.198 <ComponentBus>                Fatal error happenned - component bus is stopping.
+
+(Match_1)                [INFO]    14:17:11.202 <Match_1>                  CTFBot1-StdOut FatalErrorEvent[
+
+(Match_1)                [INFO]    14:17:11.202 <Match_1>                  CTFBot1-StdOut     Component:  Mediator[producer=WorldMessageTranslator[parser=UT2004Parser, handler=BotFSM], consumer=UT2004SyncLockableWorldView]
+
+(Match_1)                [INFO]    14:17:11.202 <Match_1>                  CTFBot1-StdOut     Message:    MediatorWorker: Producer exception.
+
+(Match_1)                [INFO]    14:17:11.202 <Match_1>                  CTFBot1-StdOut     Cause:      class cz.cuni.amis.pogamut.base.communication.parser.exception.ParserException: UT2004Parser: Can't parse next message: java.net.SocketException: Connection reset (caused by: java.net.SocketException: Connection reset) (at cz.cuni.amis.pogamut.base.communication.parser.impl.yylex.YylexParser.parse(YylexParser.java:107))
+
+(Match_1)                [INFO]    14:17:11.202 <Match_1>                  CTFBot1-StdOut     Cause:      class cz.cuni.amis.utils.exception.PogamutIOException: java.net.SocketException: Connection reset (at cz.cuni.amis.pogamut.base.communication.connection.impl.AbstractConnection$ConnectionReader.handleException(AbstractConnection.java:447))
+
+(Match_1)                [INFO]    14:17:11.202 <Match_1>                  CTFBot1-StdOut     Cause:      class java.net.SocketException: Connection reset (at java.net.SocketInputStream.read(Unknown Source))
+
+(Match_1)                [INFO]    14:17:11.202 <Match_1>                  CTFBot1-StdOut     Stacktrace:
+
+(Match_1)                [INFO]    14:17:11.202 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.base.component.controller.ComponentController.fatalError(ComponentController.java:513)
+
+(Match_1)                [INFO]    14:17:11.202 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.base.communication.mediator.impl.Mediator$Worker.run(Mediator.java:312)
+
+(Match_1)                [INFO]    14:17:11.202 <Match_1>                  CTFBot1-StdOut         java.lang.Thread.run(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.203 <Match_1>                  CTFBot1-StdOut     Caused by: class cz.cuni.amis.pogamut.base.communication.parser.exception.ParserException: UT2004Parser: Can't parse next message: java.net.SocketException: Connection reset (caused by: java.net.SocketException: Connection reset) (at cz.cuni.amis.pogamut.base.communication.parser.impl.yylex.YylexParser.parse(YylexParser.java:107))
+
+(Match_1)                [INFO]    14:17:11.203 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.base.communication.parser.impl.yylex.YylexParser.parse(YylexParser.java:107)
+
+(Match_1)                [INFO]    14:17:11.203 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.base.communication.translator.impl.WorldMessageTranslator.getEvent(WorldMessageTranslator.java:121)
+
+(Match_1)                [INFO]    14:17:11.203 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.base.communication.mediator.impl.Mediator$Worker.run(Mediator.java:299)
+
+(Match_1)                [INFO]    14:17:11.203 <Match_1>                  CTFBot1-StdOut         java.lang.Thread.run(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.203 <Match_1>                  CTFBot1-StdOut     Caused by: class cz.cuni.amis.utils.exception.PogamutIOException: java.net.SocketException: Connection reset (at cz.cuni.amis.pogamut.base.communication.connection.impl.AbstractConnection$ConnectionReader.handleException(AbstractConnection.java:447))
+
+(Match_1)                [INFO]    14:17:11.203 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.base.communication.connection.impl.AbstractConnection$ConnectionReader.handleException(AbstractConnection.java:447)
+
+(Match_1)                [INFO]    14:17:11.203 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.base.communication.connection.impl.AbstractConnection$ConnectionReader.read(AbstractConnection.java:420)
+
+(Match_1)                [INFO]    14:17:11.203 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.Yylex.zzRefill(Yylex.java:6006)
+
+(Match_1)                [INFO]    14:17:11.203 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.Yylex.yylex(Yylex.java:6250)
+
+(Match_1)                [INFO]    14:17:11.203 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.base.communication.parser.impl.yylex.YylexParser.parse(YylexParser.java:97)
+
+(Match_1)                [INFO]    14:17:11.203 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.base.communication.translator.impl.WorldMessageTranslator.getEvent(WorldMessageTranslator.java:121)
+
+(Match_1)                [INFO]    14:17:11.203 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.base.communication.mediator.impl.Mediator$Worker.run(Mediator.java:299)
+
+(Match_1)                [INFO]    14:17:11.203 <Match_1>                  CTFBot1-StdOut         java.lang.Thread.run(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.203 <Match_1>                  CTFBot1-StdOut     Caused by: class java.net.SocketException: Connection reset (at java.net.SocketInputStream.read(Unknown Source))
+
+(Match_1)                [INFO]    14:17:11.203 <Match_1>                  CTFBot1-StdOut         java.net.SocketInputStream.read(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.204 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:11.195 <Parser>                      UT2004Parser: Can't parse next message: java.net.SocketException: Connection reset (caused by: java.net.SocketException: Connection reset)
+
+(Match_1)                [INFO]    14:17:11.204 <Match_1>                  CTFBot1-StdOut         java.net.SocketInputStream.read(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.204 <Match_1>                  CTFBot2-StdOut  (at cz.cuni.amis.pogamut.base.communication.parser.impl.yylex.YylexParser.parse(YylexParser.java:107))
+
+(Match_1)                [INFO]    14:17:11.204 <Match_1>                  CTFBot1-StdOut         sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.204 <Match_1>                  CTFBot2-StdOut caused by:  (at cz.cuni.amis.pogamut.base.communication.connection.impl.AbstractConnection$ConnectionReader.handleException(AbstractConnection.java:447))
+
+(Match_1)                [INFO]    14:17:11.204 <Match_1>                  CTFBot1-StdOut         sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.204 <Match_1>                  CTFBot1-StdOut         sun.nio.cs.StreamDecoder.read(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.205 <Match_1>                  CTFBot1-StdOut         java.io.InputStreamReader.read(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.205 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.base.communication.connection.impl.AbstractConnection$ConnectionReader.read(AbstractConnection.java:402)
+
+(Match_1)                [INFO]    14:17:11.207 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.Yylex.zzRefill(Yylex.java:6006)
+
+(Match_1)                [INFO]    14:17:11.207 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.Yylex.yylex(Yylex.java:6250)
+
+(Match_1)                [INFO]    14:17:11.207 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.base.communication.parser.impl.yylex.YylexParser.parse(YylexParser.java:97)
+
+(Match_1)                [INFO]    14:17:11.207 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.base.communication.translator.impl.WorldMessageTranslator.getEvent(WorldMessageTranslator.java:121)
+
+(Match_1)                [INFO]    14:17:11.207 <Match_1>                  CTFBot2-StdOut caused by:  (at java.net.SocketInputStream.read(Unknown Source))
+
+(Match_1)                [INFO]    14:17:11.207 <Match_1>                  CTFBot2-StdOut Stack trace:
+
+(Match_1)                [INFO]    14:17:11.207 <Match_1>                  CTFBot2-StdOut ParserException[UT2004Parser: Can't parse next message: java.net.SocketException: Connection reset (caused by: java.net.SocketException: Connection reset)]
+
+(Match_1)                [INFO]    14:17:11.208 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.base.communication.mediator.impl.Mediator$Worker.run(Mediator.java:299)
+
+(Match_1)                [INFO]    14:17:11.208 <Match_1>                  CTFBot1-StdOut         java.lang.Thread.run(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.208 <Match_1>                  Match_1: Killing UCC...
+
+(Match_1)                [INFO]    14:17:11.209 <Match_1>                  CTFBot1-StdOut ]
+
+(Match_1)                [INFO]    14:17:11.209 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [SEVERE]  14:17:11.205 <Connection>                  Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:11.209 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [WARNING] 14:17:11.206 <Connection>                  Calling Connection.kill().
+
+(Match_1)                [INFO]    14:17:11.209 <Match_1>                  CTFBot2-StdOut 	at cz.cuni.amis.pogamut.base.communication.parser.impl.yylex.YylexParser.parse(YylexParser.java:107)
+
+(Match_1)                [INFO]    14:17:11.209 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [SEVERE]  14:17:11.206 <Connection>                  Connection.kill()ed.
+
+(Match_1)                [INFO]    14:17:11.209 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [SEVERE]  14:17:11.206 <Parser>                      Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:11.210 <Match_1>                  CTFBot2-StdOut 	at cz.cuni.amis.pogamut.base.communication.translator.impl.WorldMessageTranslator.getEvent(WorldMessageTranslator.java:121)
+
+(Match_1)                [INFO]    14:17:11.210 <Match_1>                  CTFBot2-StdOut 	at cz.cuni.amis.pogamut.base.communication.mediator.impl.Mediator$Worker.run(Mediator.java:299)
+
+(Match_1)                [INFO]    14:17:11.211 <Match_1>                  CTFBot2-StdOut 	at java.lang.Thread.run(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.211 <Match_1>                  CTFBot2-StdOut Caused by: PogamutIOException[java.net.SocketException: Connection reset]
+
+(Match_1)                [INFO]    14:17:11.211 <Match_1>                  CTFBot2-StdOut 	at cz.cuni.amis.pogamut.base.communication.connection.impl.AbstractConnection$ConnectionReader.handleException(AbstractConnection.java:447)
+
+(Match_1)                [INFO]    14:17:11.211 <Match_1>                  CTFBot2-StdOut 	at cz.cuni.amis.pogamut.base.communication.connection.impl.AbstractConnection$ConnectionReader.read(AbstractConnection.java:420)
+
+(Match_1)                [INFO]    14:17:11.211 <Match_1>                  CTFBot2-StdOut 	at cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.Yylex.zzRefill(Yylex.java:6006)
+
+(Match_1)                [INFO]    14:17:11.211 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [WARNING] 14:17:11.206 <Parser>                      Calling Parser.kill().
+
+(Match_1)                [INFO]    14:17:11.211 <Match_1>                  CTFBot2-StdOut 	at cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.Yylex.yylex(Yylex.java:6250)
+
+(Match_1)                [INFO]    14:17:11.211 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [SEVERE]  14:17:11.206 <Parser>                      Parser.kill()ed.
+
+(Match_1)                [INFO]    14:17:11.211 <Match_1>                  CTFBot2-StdOut 	at cz.cuni.amis.pogamut.base.communication.parser.impl.yylex.YylexParser.parse(YylexParser.java:97)
+
+(Match_1)                [INFO]    14:17:11.211 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [SEVERE]  14:17:11.206 <WorldMessageTranslator>      Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:11.211 <Match_1>                  CTFBot2-StdOut 	... 3 more
+
+(Match_1)                [INFO]    14:17:11.212 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [WARNING] 14:17:11.207 <WorldMessageTranslator>      Calling WorldMessageTranslator.kill().
+
+(Match_1)                [INFO]    14:17:11.212 <Match_1>                  CTFBot2-StdOut Caused by: java.net.SocketException: Connection reset
+
+(Match_1)                [INFO]    14:17:11.212 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [SEVERE]  14:17:11.207 <WorldMessageTranslator>      WorldMessageTranslator.kill()ed.
+
+(Match_1)                [INFO]    14:17:11.212 <Match_1>                  CTFBot2-StdOut 	at java.net.SocketInputStream.read(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.212 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [SEVERE]  14:17:11.207 <WorldView>                   Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:11.212 <Match_1>                  CTFBot2-StdOut 	at java.net.SocketInputStream.read(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.212 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [WARNING] 14:17:11.207 <WorldView>                   Calling WorldView.kill().
+
+(Match_1)                [INFO]    14:17:11.212 <Match_1>                  CTFBot2-StdOut 	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.212 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [SEVERE]  14:17:11.207 <WorldView>                   WorldView.kill()ed.
+
+(Match_1)                [INFO]    14:17:11.212 <Match_1>                  CTFBot2-StdOut 	at sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.212 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [SEVERE]  14:17:11.207 <Act>                         Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:11.212 <Match_1>                  CTFBot2-StdOut 	at sun.nio.cs.StreamDecoder.read(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.212 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [WARNING] 14:17:11.207 <Act>                         Calling Act.kill().
+
+(Match_1)                [INFO]    14:17:11.212 <Match_1>                  CTFBot2-StdOut 	at java.io.InputStreamReader.read(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.213 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [SEVERE]  14:17:11.207 <Act>                         Act.kill()ed.
+
+(Match_1)                [INFO]    14:17:11.213 <Match_1>                  CTFBot2-StdOut 	at cz.cuni.amis.pogamut.base.communication.connection.impl.AbstractConnection$ConnectionReader.read(AbstractConnection.java:402)
+
+(Match_1)                [INFO]    14:17:11.213 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [SEVERE]  14:17:11.207 <Agent>                       Fatal error sensed: FatalErrorEvent[
+
+(Match_1)                [INFO]    14:17:11.213 <Match_1>                  CTFBot2-StdOut 	... 6 more
+
+(Match_1)                [INFO]    14:17:11.213 <Match_1>                  CTFBot2-StdOut 
+
+(Match_1)                [INFO]    14:17:11.213 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:11.195 <Mediator>                    Fatal error in Mediator: MediatorWorker: Producer exception.
+
+(Match_1)                [INFO]    14:17:11.213 <Match_1>                  CTFBot1-StdOut     Component:  Mediator[producer=WorldMessageTranslator[parser=UT2004Parser, handler=BotFSM], consumer=UT2004SyncLockableWorldView]
+
+(Match_1)                [INFO]    14:17:11.213 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:11.196 <ComponentBus>                Fatal error happenned - component bus is stopping.
+
+(Match_1)                [INFO]    14:17:11.213 <Match_1>                  CTFBot1-StdOut     Message:    MediatorWorker: Producer exception.
+
+(Match_1)                [INFO]    14:17:11.213 <Match_1>                  CTFBot2-StdOut FatalErrorEvent[
+
+(Match_1)                [INFO]    14:17:11.213 <Match_1>                  CTFBot1-StdOut     Cause:      class cz.cuni.amis.pogamut.base.communication.parser.exception.ParserException: UT2004Parser: Can't parse next message: java.net.SocketException: Connection reset (caused by: java.net.SocketException: Connection reset) (at cz.cuni.amis.pogamut.base.communication.parser.impl.yylex.YylexParser.parse(YylexParser.java:107))
+
+(Match_1)                [INFO]    14:17:11.214 <Match_1>                  CTFBot2-StdOut     Component:  Mediator[producer=WorldMessageTranslator[parser=UT2004Parser, handler=BotFSM], consumer=UT2004SyncLockableWorldView]
+
+(Match_1)                [INFO]    14:17:11.214 <Match_1>                  CTFBot1-StdOut     Cause:      class cz.cuni.amis.utils.exception.PogamutIOException: java.net.SocketException: Connection reset (at cz.cuni.amis.pogamut.base.communication.connection.impl.AbstractConnection$ConnectionReader.handleException(AbstractConnection.java:447))
+
+(Match_1)                [INFO]    14:17:11.214 <Match_1>                  CTFBot2-StdOut     Message:    MediatorWorker: Producer exception.
+
+(Match_1)                [INFO]    14:17:11.214 <Match_1>                  CTFBot1-StdOut     Cause:      class java.net.SocketException: Connection reset (at java.net.SocketInputStream.read(Unknown Source))
+
+(Match_1)                [INFO]    14:17:11.214 <Match_1>                  CTFBot2-StdOut     Cause:      class cz.cuni.amis.pogamut.base.communication.parser.exception.ParserException: UT2004Parser: Can't parse next message: java.net.SocketException: Connection reset (caused by: java.net.SocketException: Connection reset) (at cz.cuni.amis.pogamut.base.communication.parser.impl.yylex.YylexParser.parse(YylexParser.java:107))
+
+(Match_1)                [INFO]    14:17:11.214 <Match_1>                  CTFBot1-StdOut     Stacktrace:
+
+(Match_1)                [INFO]    14:17:11.214 <Match_1>                  CTFBot2-StdOut     Cause:      class cz.cuni.amis.utils.exception.PogamutIOException: java.net.SocketException: Connection reset (at cz.cuni.amis.pogamut.base.communication.connection.impl.AbstractConnection$ConnectionReader.handleException(AbstractConnection.java:447))
+
+(Match_1)                [INFO]    14:17:11.214 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.base.component.controller.ComponentController.fatalError(ComponentController.java:513)
+
+(Match_1)                [INFO]    14:17:11.214 <Match_1>                  CTFBot2-StdOut     Cause:      class java.net.SocketException: Connection reset (at java.net.SocketInputStream.read(Unknown Source))
+
+(Match_1)                [INFO]    14:17:11.214 <Match_1>                  CTFBot2-StdOut     Stacktrace:
+
+(Match_1)                [INFO]    14:17:11.214 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.base.communication.mediator.impl.Mediator$Worker.run(Mediator.java:312)
+
+(Match_1)                [INFO]    14:17:11.214 <Match_1>                  CTFBot1-StdOut         java.lang.Thread.run(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.214 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.base.component.controller.ComponentController.fatalError(ComponentController.java:513)
+
+(Match_1)                [INFO]    14:17:11.215 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.base.communication.mediator.impl.Mediator$Worker.run(Mediator.java:312)
+
+(Match_1)                [INFO]    14:17:11.215 <Match_1>                  CTFBot1-StdOut     Caused by: class cz.cuni.amis.pogamut.base.communication.parser.exception.ParserException: UT2004Parser: Can't parse next message: java.net.SocketException: Connection reset (caused by: java.net.SocketException: Connection reset) (at cz.cuni.amis.pogamut.base.communication.parser.impl.yylex.YylexParser.parse(YylexParser.java:107))
+
+(Match_1)                [INFO]    14:17:11.215 <Match_1>                  CTFBot2-StdOut         java.lang.Thread.run(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.215 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.base.communication.parser.impl.yylex.YylexParser.parse(YylexParser.java:107)
+
+(Match_1)                [INFO]    14:17:11.215 <Match_1>                  CTFBot2-StdOut     Caused by: class cz.cuni.amis.pogamut.base.communication.parser.exception.ParserException: UT2004Parser: Can't parse next message: java.net.SocketException: Connection reset (caused by: java.net.SocketException: Connection reset) (at cz.cuni.amis.pogamut.base.communication.parser.impl.yylex.YylexParser.parse(YylexParser.java:107))
+
+(Match_1)                [INFO]    14:17:11.215 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.base.communication.translator.impl.WorldMessageTranslator.getEvent(WorldMessageTranslator.java:121)
+
+(Match_1)                [INFO]    14:17:11.215 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.base.communication.parser.impl.yylex.YylexParser.parse(YylexParser.java:107)
+
+(Match_1)                [INFO]    14:17:11.215 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.base.communication.mediator.impl.Mediator$Worker.run(Mediator.java:299)
+
+(Match_1)                [INFO]    14:17:11.215 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.base.communication.translator.impl.WorldMessageTranslator.getEvent(WorldMessageTranslator.java:121)
+
+(Match_1)                [INFO]    14:17:11.215 <Match_1>                  CTFBot1-StdOut         java.lang.Thread.run(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.215 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.base.communication.mediator.impl.Mediator$Worker.run(Mediator.java:299)
+
+(Match_1)                [INFO]    14:17:11.215 <Match_1>                  CTFBot2-StdOut         java.lang.Thread.run(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.215 <Match_1>                  CTFBot1-StdOut     Caused by: class cz.cuni.amis.utils.exception.PogamutIOException: java.net.SocketException: Connection reset (at cz.cuni.amis.pogamut.base.communication.connection.impl.AbstractConnection$ConnectionReader.handleException(AbstractConnection.java:447))
+
+(Match_1)                [INFO]    14:17:11.215 <Match_1>                  CTFBot2-StdOut     Caused by: class cz.cuni.amis.utils.exception.PogamutIOException: java.net.SocketException: Connection reset (at cz.cuni.amis.pogamut.base.communication.connection.impl.AbstractConnection$ConnectionReader.handleException(AbstractConnection.java:447))
+
+(Match_1)                [INFO]    14:17:11.215 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.base.communication.connection.impl.AbstractConnection$ConnectionReader.handleException(AbstractConnection.java:447)
+
+(Match_1)                [INFO]    14:17:11.216 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.base.communication.connection.impl.AbstractConnection$ConnectionReader.handleException(AbstractConnection.java:447)
+
+(Match_1)                [INFO]    14:17:11.216 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.base.communication.connection.impl.AbstractConnection$ConnectionReader.read(AbstractConnection.java:420)
+
+(Match_1)                [INFO]    14:17:11.216 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.Yylex.zzRefill(Yylex.java:6006)
+
+(Match_1)                [INFO]    14:17:11.216 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.base.communication.connection.impl.AbstractConnection$ConnectionReader.read(AbstractConnection.java:420)
+
+(Match_1)                [INFO]    14:17:11.216 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.Yylex.zzRefill(Yylex.java:6006)
+
+(Match_1)                [INFO]    14:17:11.216 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.Yylex.yylex(Yylex.java:6250)
+
+(Match_1)                [INFO]    14:17:11.216 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.base.communication.parser.impl.yylex.YylexParser.parse(YylexParser.java:97)
+
+(Match_1)                [INFO]    14:17:11.216 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.Yylex.yylex(Yylex.java:6250)
+
+(Match_1)                [INFO]    14:17:11.216 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.base.communication.translator.impl.WorldMessageTranslator.getEvent(WorldMessageTranslator.java:121)
+
+(Match_1)                [INFO]    14:17:11.216 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.base.communication.parser.impl.yylex.YylexParser.parse(YylexParser.java:97)
+
+(Match_1)                [INFO]    14:17:11.216 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.base.communication.mediator.impl.Mediator$Worker.run(Mediator.java:299)
+
+(Match_1)                [INFO]    14:17:11.216 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.base.communication.translator.impl.WorldMessageTranslator.getEvent(WorldMessageTranslator.java:121)
+
+(Match_1)                [INFO]    14:17:11.216 <Match_1>                  CTFBot2-StdOut         java.lang.Thread.run(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.216 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.base.communication.mediator.impl.Mediator$Worker.run(Mediator.java:299)
+
+(Match_1)                [INFO]    14:17:11.217 <Match_1>                  CTFBot2-StdOut     Caused by: class java.net.SocketException: Connection reset (at java.net.SocketInputStream.read(Unknown Source))
+
+(Match_1)                [INFO]    14:17:11.217 <Match_1>                  CTFBot1-StdOut         java.lang.Thread.run(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.217 <Match_1>                  CTFBot2-StdOut         java.net.SocketInputStream.read(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.217 <Match_1>                  CTFBot1-StdOut     Caused by: class java.net.SocketException: Connection reset (at java.net.SocketInputStream.read(Unknown Source))
+
+(Match_1)                [INFO]    14:17:11.217 <Match_1>                  CTFBot2-StdOut         java.net.SocketInputStream.read(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.217 <Match_1>                  CTFBot1-StdOut         java.net.SocketInputStream.read(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.217 <Match_1>                  CTFBot2-StdOut         sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.217 <Match_1>                  CTFBot1-StdOut         java.net.SocketInputStream.read(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.217 <Match_1>                  CTFBot2-StdOut         sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.217 <Match_1>                  CTFBot1-StdOut         sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.217 <Match_1>                  CTFBot2-StdOut         sun.nio.cs.StreamDecoder.read(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.217 <Match_1>                  CTFBot1-StdOut         sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.217 <Match_1>                  CTFBot2-StdOut         java.io.InputStreamReader.read(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.217 <Match_1>                  CTFBot1-StdOut         sun.nio.cs.StreamDecoder.read(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.217 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.base.communication.connection.impl.AbstractConnection$ConnectionReader.read(AbstractConnection.java:402)
+
+(Match_1)                [INFO]    14:17:11.218 <Match_1>                  CTFBot1-StdOut         java.io.InputStreamReader.read(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.218 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.Yylex.zzRefill(Yylex.java:6006)
+
+(Match_1)                [INFO]    14:17:11.218 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.base.communication.connection.impl.AbstractConnection$ConnectionReader.read(AbstractConnection.java:402)
+
+(Match_1)                [INFO]    14:17:11.218 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.Yylex.yylex(Yylex.java:6250)
+
+(Match_1)                [INFO]    14:17:11.218 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.Yylex.zzRefill(Yylex.java:6006)
+
+(Match_1)                [INFO]    14:17:11.218 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.base.communication.parser.impl.yylex.YylexParser.parse(YylexParser.java:97)
+
+(Match_1)                [INFO]    14:17:11.218 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.Yylex.yylex(Yylex.java:6250)
+
+(Match_1)                [INFO]    14:17:11.218 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.base.communication.translator.impl.WorldMessageTranslator.getEvent(WorldMessageTranslator.java:121)
+
+(Match_1)                [INFO]    14:17:11.218 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.base.communication.parser.impl.yylex.YylexParser.parse(YylexParser.java:97)
+
+(Match_1)                [INFO]    14:17:11.218 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.base.communication.mediator.impl.Mediator$Worker.run(Mediator.java:299)
+
+(Match_1)                [INFO]    14:17:11.218 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.base.communication.translator.impl.WorldMessageTranslator.getEvent(WorldMessageTranslator.java:121)
+
+(Match_1)                [INFO]    14:17:11.218 <Match_1>                  CTFBot2-StdOut         java.lang.Thread.run(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.218 <Match_1>                  CTFBot1-StdOut         cz.cuni.amis.pogamut.base.communication.mediator.impl.Mediator$Worker.run(Mediator.java:299)
+
+(Match_1)                [INFO]    14:17:11.218 <Match_1>                  CTFBot2-StdOut ]
+
+(Match_1)                [INFO]    14:17:11.218 <Match_1>                  CTFBot1-StdOut         java.lang.Thread.run(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.219 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:11.201 <Connection>                  Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:11.219 <Match_1>                  CTFBot1-StdOut ]
+
+(Match_1)                [INFO]    14:17:11.219 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:11.201 <Connection>                  Calling Connection.kill().
+
+(Match_1)                [INFO]    14:17:11.219 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [WARNING] 14:17:11.209 <Act>                         Not running, can't send DISCONNECT
+
+(Match_1)                [INFO]    14:17:11.219 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:11.202 <Connection>                  Connection.kill()ed.
+
+(Match_1)                [INFO]    14:17:11.219 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:11.202 <Parser>                      Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:11.219 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:11.202 <Parser>                      Calling Parser.kill().
+
+(Match_1)                [INFO]    14:17:11.219 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:11.202 <Parser>                      Parser.kill()ed.
+
+(Match_1)                [INFO]    14:17:11.219 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:11.202 <WorldMessageTranslator>      Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:11.219 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:11.202 <WorldMessageTranslator>      Calling WorldMessageTranslator.kill().
+
+(Match_1)                [INFO]    14:17:11.219 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:11.202 <WorldMessageTranslator>      WorldMessageTranslator.kill()ed.
+
+(Match_1)                [INFO]    14:17:11.219 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:11.202 <WorldView>                   Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:11.219 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:11.202 <WorldView>                   Calling WorldView.kill().
+
+(Match_1)                [INFO]    14:17:11.219 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:11.202 <WorldView>                   WorldView.kill()ed.
+
+(Match_1)                [INFO]    14:17:11.219 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:11.203 <Act>                         Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:11.219 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:11.203 <Act>                         Calling Act.kill().
+
+(Match_1)                [INFO]    14:17:11.220 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:11.203 <Act>                         Act.kill()ed.
+
+(Match_1)                [INFO]    14:17:11.220 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:11.203 <Agent>                       Fatal error sensed: FatalErrorEvent[
+
+(Match_1)                [INFO]    14:17:11.220 <Match_1>                  CTFBot2-StdOut     Component:  Mediator[producer=WorldMessageTranslator[parser=UT2004Parser, handler=BotFSM], consumer=UT2004SyncLockableWorldView]
+
+(Match_1)                [INFO]    14:17:11.220 <Match_1>                  CTFBot2-StdOut     Message:    MediatorWorker: Producer exception.
+
+(Match_1)                [INFO]    14:17:11.220 <Match_1>                  CTFBot2-StdOut     Cause:      class cz.cuni.amis.pogamut.base.communication.parser.exception.ParserException: UT2004Parser: Can't parse next message: java.net.SocketException: Connection reset (caused by: java.net.SocketException: Connection reset) (at cz.cuni.amis.pogamut.base.communication.parser.impl.yylex.YylexParser.parse(YylexParser.java:107))
+
+(Match_1)                [INFO]    14:17:11.220 <Match_1>                  CTFBot2-StdOut     Cause:      class cz.cuni.amis.utils.exception.PogamutIOException: java.net.SocketException: Connection reset (at cz.cuni.amis.pogamut.base.communication.connection.impl.AbstractConnection$ConnectionReader.handleException(AbstractConnection.java:447))
+
+(Match_1)                [INFO]    14:17:11.220 <Match_1>                  CTFBot2-StdOut     Cause:      class java.net.SocketException: Connection reset (at java.net.SocketInputStream.read(Unknown Source))
+
+(Match_1)                [INFO]    14:17:11.220 <Match_1>                  CTFBot2-StdOut     Stacktrace:
+
+(Match_1)                [INFO]    14:17:11.220 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.base.component.controller.ComponentController.fatalError(ComponentController.java:513)
+
+(Match_1)                [INFO]    14:17:11.220 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.base.communication.mediator.impl.Mediator$Worker.run(Mediator.java:312)
+
+(Match_1)                [INFO]    14:17:11.220 <Match_1>                  CTFBot2-StdOut         java.lang.Thread.run(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.220 <Match_1>                  CTFBot2-StdOut     Caused by: class cz.cuni.amis.pogamut.base.communication.parser.exception.ParserException: UT2004Parser: Can't parse next message: java.net.SocketException: Connection reset (caused by: java.net.SocketException: Connection reset) (at cz.cuni.amis.pogamut.base.communication.parser.impl.yylex.YylexParser.parse(YylexParser.java:107))
+
+(Match_1)                [INFO]    14:17:11.220 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.base.communication.parser.impl.yylex.YylexParser.parse(YylexParser.java:107)
+
+(Match_1)                [INFO]    14:17:11.220 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.base.communication.translator.impl.WorldMessageTranslator.getEvent(WorldMessageTranslator.java:121)
+
+(Match_1)                [INFO]    14:17:11.220 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.base.communication.mediator.impl.Mediator$Worker.run(Mediator.java:299)
+
+(Match_1)                [INFO]    14:17:11.220 <Match_1>                  CTFBot2-StdOut         java.lang.Thread.run(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.220 <Match_1>                  CTFBot2-StdOut     Caused by: class cz.cuni.amis.utils.exception.PogamutIOException: java.net.SocketException: Connection reset (at cz.cuni.amis.pogamut.base.communication.connection.impl.AbstractConnection$ConnectionReader.handleException(AbstractConnection.java:447))
+
+(Match_1)                [INFO]    14:17:11.221 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.base.communication.connection.impl.AbstractConnection$ConnectionReader.handleException(AbstractConnection.java:447)
+
+(Match_1)                [INFO]    14:17:11.221 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.base.communication.connection.impl.AbstractConnection$ConnectionReader.read(AbstractConnection.java:420)
+
+(Match_1)                [INFO]    14:17:11.221 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.Yylex.zzRefill(Yylex.java:6006)
+
+(Match_1)                [INFO]    14:17:11.221 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.Yylex.yylex(Yylex.java:6250)
+
+(Match_1)                [INFO]    14:17:11.221 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.base.communication.parser.impl.yylex.YylexParser.parse(YylexParser.java:97)
+
+(Match_1)                [INFO]    14:17:11.221 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.base.communication.translator.impl.WorldMessageTranslator.getEvent(WorldMessageTranslator.java:121)
+
+(Match_1)                [INFO]    14:17:11.221 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.base.communication.mediator.impl.Mediator$Worker.run(Mediator.java:299)
+
+(Match_1)                [INFO]    14:17:11.221 <Match_1>                  CTFBot2-StdOut         java.lang.Thread.run(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.221 <Match_1>                  CTFBot2-StdOut     Caused by: class java.net.SocketException: Connection reset (at java.net.SocketInputStream.read(Unknown Source))
+
+(Match_1)                [INFO]    14:17:11.221 <Match_1>                  CTFBot2-StdOut         java.net.SocketInputStream.read(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.221 <Match_1>                  CTFBot2-StdOut         java.net.SocketInputStream.read(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.221 <Match_1>                  CTFBot2-StdOut         sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.221 <Match_1>                  CTFBot2-StdOut         sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.221 <Match_1>                  CTFBot2-StdOut         sun.nio.cs.StreamDecoder.read(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.221 <Match_1>                  CTFBot2-StdOut         java.io.InputStreamReader.read(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.221 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.base.communication.connection.impl.AbstractConnection$ConnectionReader.read(AbstractConnection.java:402)
+
+(Match_1)                [INFO]    14:17:11.221 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.Yylex.zzRefill(Yylex.java:6006)
+
+(Match_1)                [INFO]    14:17:11.221 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.ut2004.communication.messages.gbinfomessages.Yylex.yylex(Yylex.java:6250)
+
+(Match_1)                [INFO]    14:17:11.222 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.base.communication.parser.impl.yylex.YylexParser.parse(YylexParser.java:97)
+
+(Match_1)                [INFO]    14:17:11.222 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.base.communication.translator.impl.WorldMessageTranslator.getEvent(WorldMessageTranslator.java:121)
+
+(Match_1)                [INFO]    14:17:11.222 <Match_1>                  CTFBot2-StdOut         cz.cuni.amis.pogamut.base.communication.mediator.impl.Mediator$Worker.run(Mediator.java:299)
+
+(Match_1)                [INFO]    14:17:11.222 <Match_1>                  CTFBot2-StdOut         java.lang.Thread.run(Unknown Source)
+
+(Match_1)                [INFO]    14:17:11.222 <Match_1>                  CTFBot2-StdOut ]
+
+(Match_1)                [INFO]    14:17:11.222 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:11.203 <Act>                         Not running, can't send DISCONNECT
+
+(Match_1)                [INFO]    14:17:11.246 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:11.246 <SyncUT2004BotLogic0>         Thread 0: stopping the thread, received ComponentNotRunningException from UT2004SyncLockableWorldView.
+
+(Match_1)                [INFO]    14:17:11.246 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:11.246 <SyncUT2004BotLogic0>         Thread 0: Logic thread stopped.
+
+(Match_1)                [INFO]    14:17:12.204 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.204 <AgentJMXComponents>          Unregistering JMX components.
+
+(Match_1)                [INFO]    14:17:12.204 <Match_1>                  CTFBot2-StdOut (Platform) [WARNING] 14:17:12.204 <DefaultPogamutPlatform>      Closing the platform.
+
+(Match_1)                [INFO]    14:17:12.206 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.205 <SyncUT2004BotLogic0>         Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.206 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.206 <SyncUT2004BotLogic0>         Calling SyncUT2004BotLogic0.kill().
+
+(Match_1)                [INFO]    14:17:12.206 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.206 <SyncUT2004BotLogic0>         SyncUT2004BotLogic0.kill()ed.
+
+(Match_1)                [INFO]    14:17:12.206 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.206 <Game1>                       Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.206 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.206 <Game1>                       Calling Game1.kill().
+
+(Match_1)                [INFO]    14:17:12.207 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.206 <Game1>                       Game1.kill()ed.
+
+(Match_1)                [INFO]    14:17:12.207 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.207 <NavPoints2>                  Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.207 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.207 <NavPoints2>                  Calling NavPoints2.kill().
+
+(Match_1)                [INFO]    14:17:12.207 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.207 <NavPoints2>                  NavPoints2.kill()ed.
+
+(Match_1)                [INFO]    14:17:12.207 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.207 <Players3>                    Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.207 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.207 <Players3>                    Calling Players3.kill().
+
+(Match_1)                [INFO]    14:17:12.207 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.207 <Players3>                    Players3.kill()ed.
+
+(Match_1)                [INFO]    14:17:12.207 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.207 <ItemDescriptors4>            Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.207 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.207 <ItemDescriptors4>            Calling ItemDescriptors4.kill().
+
+(Match_1)                [INFO]    14:17:12.207 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.207 <ItemDescriptors4>            ItemDescriptors4.kill()ed.
+
+(Match_1)                [INFO]    14:17:12.207 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.207 <AgentConfig5>                Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.207 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.207 <AgentConfig5>                Calling AgentConfig5.kill().
+
+(Match_1)                [INFO]    14:17:12.207 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.207 <AgentConfig5>                AgentConfig5.kill()ed.
+
+(Match_1)                [INFO]    14:17:12.208 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.207 <Raycasting6>                 Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.208 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.208 <Raycasting6>                 Calling Raycasting6.kill().
+
+(Match_1)                [INFO]    14:17:12.208 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.208 <Raycasting6>                 Raycasting6.kill()ed.
+
+(Match_1)                [INFO]    14:17:12.208 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.208 <RaycastingUT20047>           Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.208 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.208 <RaycastingUT20047>           Calling RaycastingUT20047.kill().
+
+(Match_1)                [INFO]    14:17:12.208 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.208 <RaycastingUT20047>           RaycastingUT20047.kill()ed.
+
+(Match_1)                [INFO]    14:17:12.208 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.208 <RaycastingBSP8>              Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.208 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.208 <RaycastingBSP8>              Calling RaycastingBSP8.kill().
+
+(Match_1)                [INFO]    14:17:12.208 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.208 <RaycastingBSP8>              RaycastingBSP8.kill()ed.
+
+(Match_1)                [INFO]    14:17:12.208 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.208 <RaycastingUT20049>           Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.208 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.208 <RaycastingUT20049>           Calling RaycastingUT20049.kill().
+
+(Match_1)                [INFO]    14:17:12.208 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.208 <RaycastingUT20049>           RaycastingUT20049.kill()ed.
+
+(Match_1)                [INFO]    14:17:12.208 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.208 <RaycastingBSP10>             Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.208 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.208 <RaycastingBSP10>             Calling RaycastingBSP10.kill().
+
+(Match_1)                [INFO]    14:17:12.209 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.208 <RaycastingBSP10>             RaycastingBSP10.kill()ed.
+
+(Match_1)                [WARNING] 14:17:12.209 <Match_1>                  There is more than one team with highest score == 0: Team[0], Team[1].
+
+(Match_1)                [WARNING] 14:17:12.209 <Match_1>                  Match_1: MATCH FINISHED!
+
+(Match_1)                [INFO]    14:17:12.209 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.208 <AgentStats11>                Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.209 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [WARNING] 14:17:12.209 <AgentJMXComponents>          Unregistering JMX components.
+
+(Match_1)                [INFO]    14:17:12.209 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.209 <AgentStats11>                Calling AgentStats11.kill().
+
+(Match_1)                [INFO]    14:17:12.209 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.209 <AgentStats11>                AgentStats11.kill()ed.
+
+(Match_1)                [INFO]    14:17:12.209 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.209 <NavigationGraphBuilder12>    Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.209 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.209 <NavigationGraphBuilder12>    Calling NavigationGraphBuilder12.kill().
+
+(Match_1)                [INFO]    14:17:12.209 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.209 <NavigationGraphBuilder12>    NavigationGraphBuilder12.kill()ed.
+
+(Match_1)                [INFO]    14:17:12.209 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.209 <AgentInfo13>                 Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.209 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.209 <AgentInfo13>                 Calling AgentInfo13.kill().
+
+(Match_1)                [INFO]    14:17:12.210 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.209 <AgentInfo13>                 AgentInfo13.kill()ed.
+
+(Match_1)                [INFO]    14:17:12.210 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.209 <Visibility14>                Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.210 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.209 <Visibility14>                Calling Visibility14.kill().
+
+(Match_1)                [INFO]    14:17:12.210 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.209 <Visibility14>                Visibility14.kill()ed.
+
+(Match_1)                [INFO]    14:17:12.210 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.209 <CTF15>                       Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.210 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.209 <CTF15>                       Calling CTF15.kill().
+
+(Match_1)                [INFO]    14:17:12.210 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.210 <CTF15>                       CTF15.kill()ed.
+
+(Match_1)                [INFO]    14:17:12.210 <Match_1>                  CTFBot2-StdOut (Platform) [WARNING] 14:17:12.210 <NetworkLogManager>           Shutting down!
+
+(Match_1)                [INFO]    14:17:12.210 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.210 <Weaponry16>                  Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.210 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.210 <Weaponry16>                  Calling Weaponry16.kill().
+
+(Match_1)                [INFO]    14:17:12.210 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.210 <Weaponry16>                  Weaponry16.kill()ed.
+
+(Match_1)                [INFO]    14:17:12.210 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.210 <Items17>                     Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.210 <Match_1>                  CTFBot2-StdOut (Platform) [SEVERE]  14:17:12.210 <NetworkLogManager>           Shutdown.
+
+(Match_1)                [INFO]    14:17:12.210 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.210 <Items17>                     Calling Items17.kill().
+
+(Match_1)                [INFO]    14:17:12.210 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.210 <Items17>                     Items17.kill()ed.
+
+(Match_1)                [INFO]    14:17:12.210 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [SEVERE]  14:17:12.210 <SyncUT2004BotLogic0>         Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.211 <Match_1>                  CTFBot1-StdOut (CTFBot1)  [WARNING] 14:17:12.210 <SyncUT2004BotLogic0>         Calling SyncUT2004BotLogic0.kill().
+
+(Match_1)                [INFO]    14:17:12.211 <Match_1>                  CTFBot1-StdOut (Platform) [WARNING] 14:17:12.209 <DefaultPogamutPlatform>      Closing the platform.
+
+(Match_1)                [WARNING] 14:17:12.211 <Match_1>                  Match_1: Results processed, DRAW!
+
+(Match_1)                [INFO]    14:17:12.212 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.210 <Senses18>                    Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.212 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.210 <Senses18>                    Calling Senses18.kill().
+
+(Match_1)                [INFO]    14:17:12.212 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.210 <Senses18>                    Senses18.kill()ed.
+
+(Match_1)                [INFO]    14:17:12.212 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.211 <Action19>                    Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.212 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.211 <Action19>                    Calling Action19.kill().
+
+(Match_1)                [INFO]    14:17:12.212 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.211 <Action19>                    Action19.kill()ed.
+
+(Match_1)                [INFO]    14:17:12.212 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.211 <AdvancedLocomotion20>        Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.213 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.211 <AdvancedLocomotion20>        Calling AdvancedLocomotion20.kill().
+
+(Match_1)                [INFO]    14:17:12.213 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.211 <AdvancedLocomotion20>        AdvancedLocomotion20.kill()ed.
+
+(Match_1)                [INFO]    14:17:12.213 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.211 <AdvancedShooting21>          Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.213 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.211 <AdvancedShooting21>          Calling AdvancedShooting21.kill().
+
+(Match_1)                [INFO]    14:17:12.213 <Match_1>                  CTFBot2-StdErr Exception in thread "main" java.lang.reflect.InvocationTargetException
+
+(Match_1)                [INFO]    14:17:12.213 <Match_1>                  CTFBot2-StdErr 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+(Match_1)                [INFO]    14:17:12.213 <Match_1>                  CTFBot2-StdErr 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+
+(Match_1)                [INFO]    14:17:12.213 <Match_1>                  CTFBot2-StdErr 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+
+(Match_1)                [INFO]    14:17:12.213 <Match_1>                  CTFBot2-StdErr 	at java.lang.reflect.Method.invoke(Unknown Source)
+
+(Match_1)                [INFO]    14:17:12.213 <Match_1>                  CTFBot2-StdErr 	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+
+(Match_1)                [INFO]    14:17:12.213 <Match_1>                  CTFBot2-StdErr Caused by: PogamutException[cz.cuni.amis.pogamut.ut2004.utils.UT2004BotRunner@7b04e1ca: Could not execute all agents due to an exception, check logs of respective agents.]
+
+(Match_1)                [INFO]    14:17:12.213 <Match_1>                  CTFBot2-StdErr 	at cz.cuni.amis.pogamut.base.agent.utils.runner.impl.AgentRunner.startAgentWithParamsMain(AgentRunner.java:421)
+
+(Match_1)                [INFO]    14:17:12.213 <Match_1>                  CTFBot2-StdErr 	at cz.cuni.amis.pogamut.base.agent.utils.runner.impl.AgentRunner.startAgents(AgentRunner.java:210)
+
+(Match_1)                [INFO]    14:17:12.213 <Match_1>                  CTFBot2-StdErr 	at cz.cuni.amis.pogamut.ut2004.utils.UT2004BotRunner.startAgents(UT2004BotRunner.java:183)
+
+(Match_1)                [INFO]    14:17:12.213 <Match_1>                  CTFBot2-StdErr 	at edu.okstate.kesava.thesis.ThesisMain.main(ThesisMain.java:817)
+
+(Match_1)                [INFO]    14:17:12.213 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.211 <AdvancedShooting21>          AdvancedShooting21.kill()ed.
+
+(Match_1)                [INFO]    14:17:12.214 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.211 <ImprovedShooting22>          Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.214 <Match_1>                  CTFBot2-StdErr 	... 5 more
+
+(Match_1)                [INFO]    14:17:12.214 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.211 <ImprovedShooting22>          Calling ImprovedShooting22.kill().
+
+(Match_1)                [INFO]    14:17:12.214 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.211 <ImprovedShooting22>          ImprovedShooting22.kill()ed.
+
+(Match_1)                [INFO]    14:17:12.214 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.212 <Communication23>             Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.214 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.212 <Communication23>             Calling Communication23.kill().
+
+(Match_1)                [INFO]    14:17:12.214 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.212 <Communication23>             Communication23.kill()ed.
+
+(Match_1)                [INFO]    14:17:12.214 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.212 <ConfigureCommands24>         Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.214 <Match_1>                  CTFBot2-StdOut (Platform) [WARNING] 14:17:12.212 <NetworkLogManager>           ServerWorker Stopped.
+
+(Match_1)                [INFO]    14:17:12.214 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.213 <ConfigureCommands24>         Calling ConfigureCommands24.kill().
+
+(Match_1)                [INFO]    14:17:12.214 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.213 <ConfigureCommands24>         ConfigureCommands24.kill()ed.
+
+(Match_1)                [INFO]    14:17:12.214 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.213 <SimpleRayCasting25>          Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.214 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.213 <SimpleRayCasting25>          Calling SimpleRayCasting25.kill().
+
+(Match_1)                [INFO]    14:17:12.215 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.213 <SimpleRayCasting25>          SimpleRayCasting25.kill()ed.
+
+(Match_1)                [INFO]    14:17:12.215 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.213 <AdrenalineCombo26>           Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.215 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.213 <AdrenalineCombo26>           Calling AdrenalineCombo26.kill().
+
+(Match_1)                [INFO]    14:17:12.215 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.213 <AdrenalineCombo26>           AdrenalineCombo26.kill()ed.
+
+(Match_1)                [INFO]    14:17:12.215 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.213 <FloydWarshallMap27>          Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.215 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.213 <FloydWarshallMap27>          Calling FloydWarshallMap27.kill().
+
+(Match_1)                [INFO]    14:17:12.215 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.213 <FloydWarshallMap27>          FloydWarshallMap27.kill()ed.
+
+(Match_1)                [INFO]    14:17:12.215 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.213 <Game28>                      Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.215 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.214 <Game28>                      Calling Game28.kill().
+
+(Match_1)                [INFO]    14:17:12.215 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.214 <Game28>                      Game28.kill()ed.
+
+(Match_1)                [INFO]    14:17:12.215 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.214 <AgentInfo29>                 Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.215 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.214 <AgentInfo29>                 Calling AgentInfo29.kill().
+
+(Match_1)                [INFO]    14:17:12.215 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.214 <AgentInfo29>                 AgentInfo29.kill()ed.
+
+(Match_1)                [INFO]    14:17:12.215 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.214 <Agent>                       Received fatal error from Mediator.
+
+(Match_1)                [INFO]    14:17:12.215 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.214 <Agent>                       Calling AdvancedLocomotion30.kill().
+
+(Match_1)                [INFO]    14:17:12.215 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [SEVERE]  14:17:12.214 <Agent>                       AdvancedLocomotion30.kill()ed.
+
+(Match_1)                [INFO]    14:17:12.215 <Match_1>                  CTFBot2-StdOut (CTFBot1)  [WARNING] 14:17:12.214 <Mediator>                    MediatorWorker: Stopped.
+
+(Match_1)                [INFO]    14:17:12.216 <Match_1>                  Match_1: Replay copied into C:\Kesava\workspace\UT2004-tournament\.\Output\Generation_1\Match_1\match-Match_1-replay.demo4
+
+(Match_1)                [INFO]    14:17:12.216 <Match_1>                  CTFBot1-StdOut (Platform) [WARNING] 14:17:12.216 <NetworkLogManager>           Shutting down!
+
+(Match_1)                [INFO]    14:17:12.216 <Match_1>                  CTFBot1-StdOut (Platform) [SEVERE]  14:17:12.216 <NetworkLogManager>           Shutdown.
+
+(Match_1)                [INFO]    14:17:12.217 <Match_1>                  CTFBot1-StdOut (Platform) [WARNING] 14:17:12.217 <NetworkLogManager>           ServerWorker Stopped.
+
+(Match_1)                [INFO]    14:17:12.219 <Match_1>                  CTFBot1-StdErr Exception in thread "main" java.lang.reflect.InvocationTargetException
+
+(Match_1)                [INFO]    14:17:12.219 <Match_1>                  CTFBot1-StdErr 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+(Match_1)                [INFO]    14:17:12.219 <Match_1>                  CTFBot1-StdErr 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+
+(Match_1)                [INFO]    14:17:12.219 <Match_1>                  CTFBot1-StdErr 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+
+(Match_1)                [INFO]    14:17:12.219 <Match_1>                  CTFBot1-StdErr 	at java.lang.reflect.Method.invoke(Unknown Source)
+
+(Match_1)                [INFO]    14:17:12.219 <Match_1>                  CTFBot1-StdErr 	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+
+(Match_1)                [INFO]    14:17:12.219 <Match_1>                  CTFBot1-StdErr Caused by: PogamutException[cz.cuni.amis.pogamut.ut2004.utils.UT2004BotRunner@411541d8: Could not execute all agents due to an exception, check logs of respective agents.]
+
+(Match_1)                [INFO]    14:17:12.219 <Match_1>                  CTFBot1-StdErr 	at cz.cuni.amis.pogamut.base.agent.utils.runner.impl.AgentRunner.startAgentWithParamsMain(AgentRunner.java:421)
+
+(Match_1)                [INFO]    14:17:12.219 <Match_1>                  CTFBot1-StdErr 	at cz.cuni.amis.pogamut.base.agent.utils.runner.impl.AgentRunner.startAgents(AgentRunner.java:210)
+
+(Match_1)                [INFO]    14:17:12.219 <Match_1>                  CTFBot1-StdErr 	at cz.cuni.amis.pogamut.ut2004.utils.UT2004BotRunner.startAgents(UT2004BotRunner.java:183)
+
+(Match_1)                [INFO]    14:17:12.219 <Match_1>                  CTFBot1-StdErr 	at edu.okstate.kesava.thesis.ThesisMain.main(ThesisMain.java:817)
+
+(Match_1)                [INFO]    14:17:12.219 <Match_1>                  CTFBot1-StdErr 	... 5 more
+
+(Match_1)                [INFO]    14:17:12.243 <Match_1>                  Match_1: Match result output into C:\Kesava\workspace\UT2004-tournament\.\Output\Generation_1\Match_1\match-Match_1-result.csv.
+
+(Match_1)                [INFO]    14:17:12.250 <Match_1>                  Match_1: Match scores output into C:\Kesava\workspace\UT2004-tournament\.\Output\Generation_1\Match_1\match-Match_1-bot-scores.csv.
+
+(Match_1)                [INFO]    14:17:12.250 <Match_1>                  Match_1: Killing UCC...
+
+(Match_1)                [INFO]    14:17:12.250 <Match_1>                  Match_1: Killing UT2004Server...
+
+(Match_1)                [INFO]    14:17:12.310 <Match_1>                  Match_1: Killing Custom bots...
+
+(Match_1)                [WARNING] 14:17:12.310 <Match_1>                  Shutting down botProcess(CTFBot1)!
+
+(Match_1)                [WARNING] 14:17:12.310 <Match_1>                  ... destroying botProcess(CTFBot1).
+
+(Match_1)                [WARNING] 14:17:12.310 <Match_1>                  ... destroying streamSinkError(CTFBot1).
+
+(Match_1)                [WARNING] 14:17:12.311 <Match_1>                  ... destroying streamSinkOutput(CTFBot1).
+
+(Match_1)                [WARNING] 14:17:12.311 <Match_1>                  ... destroying waitForEnd(CTFBot1).
+
+(Match_1)                [WARNING] 14:17:12.311 <Match_1>                  ... removing shutDownHook(CTFBot1).
+
+(Match_1)                [WARNING] 14:17:12.311 <Match_1>                  ... setting running-flag(CTFBot1) to FALSE.
+
+(Match_1)                [WARNING] 14:17:12.311 <Match_1>                  Shutdown(CTFBot1) finished.
+
+(Match_1)                [WARNING] 14:17:12.311 <Match_1>                  Shutting down botProcess(CTFBot2)!
+
+(Match_1)                [WARNING] 14:17:12.311 <Match_1>                  ... destroying botProcess(CTFBot2).
+
+(Match_1)                [WARNING] 14:17:12.311 <Match_1>                  ... destroying streamSinkError(CTFBot2).
+
+(Match_1)                [WARNING] 14:17:12.311 <Match_1>                  ... destroying streamSinkOutput(CTFBot2).
+
+(Match_1)                [WARNING] 14:17:12.311 <Match_1>                  ... destroying waitForEnd(CTFBot2).
+
+(Match_1)                [WARNING] 14:17:12.311 <Match_1>                  ... removing shutDownHook(CTFBot2).
+
+(Match_1)                [WARNING] 14:17:12.311 <Match_1>                  ... setting running-flag(CTFBot2) to FALSE.
+
+(Match_1)                [WARNING] 14:17:12.312 <Match_1>                  Shutdown(CTFBot2) finished.
+
+(Match_1)                [INFO]    14:17:12.312 <Match_1>                  Match_1: Killing Custom bot observers...
+
+(Match_1)                [INFO]    14:17:12.376 <Match_1>                  Match_1: Killing UT2004Analyzer...
+
+(Match_1)                [INFO]    14:17:12.403 <Match_1>                  Match_1: UCC, Bots, UT2004Server, UT2004Analyzer + observers were shut down.
+
+(Match_1)                [INFO]    14:17:12.403 <Match_1>                  Match_1: Cleaning up...
+
+(Match_1)                [WARNING] 14:17:12.408 <Match_1>                  Match_1: Cleaned up, match finished successfully.
+
+(Match_1)                [WARNING] 14:17:12.408 <Match_1>                  Match_1: Closing file output...
+
